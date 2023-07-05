@@ -91,15 +91,26 @@
     }
 
     #middle div {
-        position: absolute;
-        text-transform: uppercase;
+
+
         margin-top: 10px;
+        display: inline-block;
+        vertical-align: top;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        margin: 50px;
+        border: 1px solid blue;
+        background-color: yellow;
+
+
     }
 
     #welcome {
         boarder: 2px solid black;
         max-width: 600px;
         margin: auto;
+        text-align: center;
     }
 
     hr {
@@ -108,42 +119,12 @@
         margin: 5px 0;
     }
 
-    #photos {
-        text-align: center;
-        left: 10%;
-        border: 15px solid green;
-        padding: 50px;
-        margin: 20px;
-    }
+    #photos {}
 
-    #about {
-        text-align: center;
-        right: 35%;
-        border: 15px solid green;
-        padding: 50px;
-        margin: 20px;
-    }
 
-    #contact {
-        text-align: center;
-        right: 10%;
-        border: 15px solid green;
-        padding: 50px;
-        margin: 20px;
-    }
+    #about {}
 
-    .photos-info {
-        max-width: 300px;
-        text-align: left;
 
-    }
 
-    .about-info {
-        max-width: 300px;
-        text-align: left;
-    }
 
-    .contact-info {
-        max-width: 300px;
-        text-align: left;
-    }
+    #contact {}
