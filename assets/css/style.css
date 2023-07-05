@@ -1,0 +1,25 @@
+* {
+    background-color: black;
+}
+
+
+ul li {
+    color: white;
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+li {
+    display: block;
+    float: right;
+}
+
+a {
+    color: white;
+}
