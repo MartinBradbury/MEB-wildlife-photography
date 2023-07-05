@@ -94,6 +94,8 @@
         border: 1px solid blue;
         background-color: yellow;
         margin-left: 30px;
+        height: 200px;
+        text-align: center;
     }
 
     #welcome {
