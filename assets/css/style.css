@@ -2,11 +2,11 @@
         margin: 0;
         padding: 0;
         border: none;
-
+        display: 200vh
     }
 
     body {
-        font-family: lato, sans-serif;
+        font-family: sans-serif;
         font-weight: 300;
         color: ;
     }
@@ -35,7 +35,7 @@
         text-transform: uppercase;
         letter-spacing: 4px;
         margin-left: 20px;
-        margin-top: 10px;
+        margin-top: 5px;
 
     }
 
@@ -45,6 +45,7 @@
     #navigation {
         font-size: 120%;
         letter-spacing: 4px;
+        position: relative;
     }
 
 
@@ -81,3 +82,42 @@
         height: 600px;
         width: 100%;
         background: url('../images/sticks.jpg') no-repeat center center;
+    }
+
+    /* photos, about and contact */
+
+    #middle {
+        position: relative;
+    }
+
+    #middle div {
+        position: absolute;
+        text-transform: uppercase;
+    }
+
+    #welcome {
+        boarder: 2px solid black;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    hr {
+        border-top: 1px solid #3a3a3a;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #photos {
+
+        left: 15%;
+    }
+
+    #about {
+
+        right: 50%;
+    }
+
+    #contact {
+
+        right: 15%;
+    }
