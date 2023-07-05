@@ -93,6 +93,7 @@
     #middle div {
         position: absolute;
         text-transform: uppercase;
+        margin-top: 10px;
     }
 
     #welcome {
@@ -108,16 +109,41 @@
     }
 
     #photos {
-
-        left: 15%;
+        text-align: center;
+        left: 10%;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
     }
 
     #about {
-
-        right: 50%;
+        text-align: center;
+        right: 35%;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
     }
 
     #contact {
+        text-align: center;
+        right: 10%;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+    }
 
-        right: 15%;
+    .photos-info {
+        max-width: 300px;
+        text-align: left;
+
+    }
+
+    .about-info {
+        max-width: 300px;
+        text-align: left;
+    }
+
+    .contact-info {
+        max-width: 300px;
+        text-align: left;
     }
