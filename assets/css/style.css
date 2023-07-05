@@ -11,6 +11,19 @@
         color: ;
     }
 
+    /* Header */
+
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: white;
+        padding: 1em;
+
+    }
+
+
 
     /* Heading */
 
@@ -27,6 +40,7 @@
     }
 
     /* Navigation bar and links */
+
 
     #navigation {
         font-size: 120%;
@@ -60,3 +74,10 @@
     .active {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Hero Image*/
+
+    #hero-video {
+        height: 600px;
+        width: 100%;
+        background: url('../images/sticks.jpg') no-repeat center center;
