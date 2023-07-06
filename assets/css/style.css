@@ -72,6 +72,8 @@
     }
 
     #navigation a:hover {
+        transition: 0.5s;
+        color: red;
         border-bottom: 1px solid #3a3a3a;
     }
 
