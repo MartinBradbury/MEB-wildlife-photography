@@ -1,12 +1,14 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
     * {
         margin: 0;
         padding: 0;
         border: none;
-        display: 200vh
+        display: 200vh;
     }
 
     body {
-        font-family: sans-serif;
+        font-family: Roboto, sans-serif;
         font-weight: 300;
 
     }
@@ -30,7 +32,8 @@
     #logo {
 
         position: absolute;
-        font-family: sans-serif;
+        font-family: Roboto, sans-serif;
+        font-weight: 300;
         font-size: 250%;
         text-transform: uppercase;
         letter-spacing: 4px;
