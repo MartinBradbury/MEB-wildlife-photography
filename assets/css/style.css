@@ -139,16 +139,19 @@
     #photo {
         background: url('../images/sticks.jpg');
         background-size: cover;
+        color: white;
     }
 
     #about {
         background: url('../images/city.jpg');
         background-size: cover;
+        color: white;
     }
 
     #contact {
         background: url('../images/beach.jpg');
         background-size: cover;
+        color: white;
     }
 
     /* Footer */
