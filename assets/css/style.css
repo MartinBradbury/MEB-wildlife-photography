@@ -28,25 +28,34 @@
 
 
     /* Heading */
+    /* MEB logo image */
 
     #logo {
 
         position: absolute;
+        max-height: 100px;
+        width: 150px;
+        left: 30px;
+        top: 10px;
+
+    }
+
+    #meb-head {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-left: 550px;
         font-family: Roboto, sans-serif;
         font-weight: 300;
-        font-size: 250%;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        margin-left: 20px;
-        margin-top: 5px;
-
+        letter-spacing: 2px;
+        font-size: 280%;        
     }
 
     /* Navigation bar and links */
 
 
     #navigation {
-        font-size: 120%;
+        font-size: 100%;
         letter-spacing: 4px;
         position: relative;
     }
@@ -57,9 +66,9 @@
 
         list-style-type: none;
         display: block;
-        padding: 10px;
+        padding: 8px;
         text-transform: uppercase;
-        margin-right: 50px;
+        margin-right: 25px;
         margin-top: 10px;
         float: right;
 
