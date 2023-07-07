@@ -22,8 +22,6 @@
         left: 0;
         background-color: white;
         padding: 1em;
-        border: 2px solid black;
-
     }
 
 
@@ -34,8 +32,8 @@
     #logo {
 
         position: absolute;
-        max-height: 120px;
-        width: 190px;
+        max-height: 135px;
+        width: 300px;
         left: 30px;
         top: 10px;
 
