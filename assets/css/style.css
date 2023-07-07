@@ -45,6 +45,8 @@
         align-items: center;
         margin-left: 580px;
         font-family: Pacifico, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
 
         font-weight: 300;
         letter-spacing: 2px;
