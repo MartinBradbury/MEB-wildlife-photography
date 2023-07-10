@@ -18,13 +18,6 @@
         font-size: 20px;
     }
 
-    #intro {
-        font-family: roboto, sans-serif;
-        margin: 0 30px;
-        margin-bottom: 50px;
-        letter-spacing: 2px;
-    }
-
     /* Header */
 
     header {
@@ -36,10 +29,7 @@
         padding: 1em;
     }
 
-
-
-    /* Heading */
-    /* MEB logo image */
+    /* MEB head and logo image */
 
     #logo {
 
@@ -52,16 +42,12 @@
     }
 
     #meb-head {
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        margin-left: 580px;
+        margin-left: 540px;
         font-family: Pacifico, sans-serif;
         font-style: italic;
         text-decoration: underline;
-
         font-weight: 300;
-        letter-spacing: 2px;
+        letter-spacing: 4px;
         font-size: 250%;
     }
 
@@ -97,7 +83,6 @@
     #navigation a:hover {
         transition: 0.5s;
         color: red;
-        border-bottom: 1px solid #3a3a3a;
     }
 
     .active {
@@ -106,25 +91,20 @@
 
     /* Hero Image*/
 
-    #hero-video {
+    #hero-image {
         height: 700px;
         width: 100%;
         background: url('../images/heroimage.jpg') no-repeat center center;
         background-size: cover;
     }
 
-    /* photos, about and contact */
+    /* Welcome message */
 
-    span.a {
-        display: inline-block;
-        vertical-align: top;
-        width: 30%;
-        margin: 15px;
-        border: 1px solid black;
-        background-color: black;
-        margin-left: 30px;
-        height: 200px;
-        text-align: center;
+    #intro {
+        font-family: roboto, sans-serif;
+        margin: 0 30px;
+        margin-bottom: 50px;
+        letter-spacing: 2px;
     }
 
     #welcome {
@@ -136,30 +116,48 @@
     }
 
 
+
+    /* photos, about and contact */
+
+    #main {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .description {
+        font-family: pacifico, sans-serif;
+        font-size: 200%;
+        text-decoration: underline;
+    }
+
     #photo {
-        background: url('../images/sticks.jpg');
-        background-size: cover;
-        color: white;
+        border: 2px solid black;
+        max-height: 400px;
+        max-width: 400px;
     }
 
     #about {
-        background: url('../images/city.jpg');
-        background-size: cover;
-        color: white;
+        border: 2px solid black;
+        max-height: 400px;
+        max-width: 400px;
     }
 
     #contact {
-        background: url('../images/beach.jpg');
-        background-size: cover;
-        color: white;
+        border: 2px solid black;
+        max-height: 400px;
+        max-width: 400px;
     }
 
-    /* Footer */
+
+
+
+
 
     /* footer */
 
     footer {
-        height: 150px;
+        height: 100px;
 
     }
 
