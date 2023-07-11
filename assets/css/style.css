@@ -18,6 +18,7 @@
         font-family: Roboto, sans-serif;
         font-size: 20px;
     }
+    
 
     /* Header */
 
@@ -151,20 +152,22 @@
         letter-spacing: 2px;
     }
 
+    
+
     #photo {
-        border: 2px solid black;
+        border-radius: 50%;
         height: 200px;
         width: 200px;
     }
 
     #about {
-        border: 2px solid black;
+        border-radius: 50%;
         height: 200px;
         width: 200px;
     }
 
     #contact {
-        border: 2px solid black;
+        border-radius: 50%;
         height: 200px;
         width: 200px;
     }
