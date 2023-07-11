@@ -116,6 +116,24 @@
 
     }
 
+    /* Gallery section */
+
+    #gallery {
+        display: flex;
+        flex-direction: column;  
+        
+    }
+
+    #box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        height: 100px;
+        width: 20%;
+        margin: 20px 0;
+                    
+    }
 
 
     /* photos, about and contact */
