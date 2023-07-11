@@ -127,26 +127,27 @@
 
     .description {
         font-family: pacifico, sans-serif;
-        font-size: 200%;
+        font-size: 150%;
         text-decoration: underline;
+        margin-top: 400px;
     }
 
     #photo {
         border: 2px solid black;
-        max-height: 400px;
-        max-width: 400px;
+        height: 300px;
+        width: 300px;
     }
 
     #about {
         border: 2px solid black;
-        max-height: 400px;
-        max-width: 400px;
+        height: 300px;
+        width: 300px;
     }
 
     #contact {
         border: 2px solid black;
-        max-height: 400px;
-        max-width: 400px;
+        height: 300px;
+        width: 300px;
     }
 
 /* Gallery */
