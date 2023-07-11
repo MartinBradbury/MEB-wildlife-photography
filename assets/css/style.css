@@ -127,10 +127,10 @@
     }
 
     .description {
-        font-family: pacifico, sans-serif;
-        font-size: 150%;
-        text-decoration: underline;
+        font-family: Roboto, sans-serif;
+        font-size: 100%;
         margin-top: 400px;
+        letter-spacing: 2px;
     }
 
     #photo {
