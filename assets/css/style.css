@@ -176,3 +176,10 @@
         padding: 5%;
         color: #3a3a3a;
     }
+
+    #copyright {
+        font-family: Roboto, sans-serif;
+        text-align: center;
+        justify-items: center;
+
+    }
