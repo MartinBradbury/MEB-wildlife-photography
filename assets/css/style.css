@@ -134,20 +134,20 @@
 
     #photo {
         border: 2px solid black;
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
     }
 
     #about {
         border: 2px solid black;
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
     }
 
     #contact {
         border: 2px solid black;
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
     }
 
 /* Gallery */
