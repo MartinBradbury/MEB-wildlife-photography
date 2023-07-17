@@ -152,6 +152,16 @@
         background-size: cover;
     }
 
+    .peaks {
+        background: url('../images/peaks.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+    .winter {
+        background: url('../images/Winter.jpg') no-repeat center center;
+            background-size: cover;
+    }
+
 
 
     /* photos, about and contact */
