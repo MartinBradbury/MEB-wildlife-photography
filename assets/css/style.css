@@ -204,13 +204,14 @@
 
     /* gallery section and zoom */
 
-    .gallery-display img {
-        width: 100px;
-        height: 100px;
-        background-size: cover;
-        align-content: center;
-        object-position: center;
-        transition: transform ease-in-out 0.5s;
+    .gallery-display {
+        display: flex;
+        justify-content: space-evenly;
+        max-height: 20%;
+        max-width: 20%;
+
+
+
     }
 
 
