@@ -23,6 +23,12 @@
         margin-bottom: 100px;
     }
 
+    h2 {
+        font-family: Roboto, sans-serif;
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
 
     /* Header */
 
@@ -159,7 +165,7 @@
 
     .winter {
         background: url('../images/Winter.jpg') no-repeat center center;
-            background-size: cover;
+        background-size: cover;
     }
 
 
