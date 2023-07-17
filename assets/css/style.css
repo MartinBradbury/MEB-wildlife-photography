@@ -19,6 +19,10 @@
         font-size: 20px;
     }
 
+    hr {
+        margin-bottom: 100px;
+    }
+
 
     /* Header */
 
@@ -100,6 +104,13 @@
         background-size: cover;
     }
 
+    #hero-image2 {
+        height: 700px;
+        width: 100%;
+        background: url('../images/heroimage2.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
     /* Welcome message */
 
     #intro {
@@ -130,11 +141,17 @@
         justify-content: center;
         align-items: center;
         border: 1px solid black;
-        height: 100px;
+        height: 300px;
         width: 20%;
         margin: 20px 0;
 
     }
+
+    .dales {
+        background: url('../images/dalesbox.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
 
 
     /* photos, about and contact */
