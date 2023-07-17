@@ -216,6 +216,11 @@ div.gallery:hover {
   border: 1px solid red;
 }
 
+div.gallery-display img {
+  width: 100%;
+  height: auto;
+}
+
 
 
     /* photos, about and contact */
