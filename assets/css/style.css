@@ -204,15 +204,17 @@
 
     /* gallery section and zoom */
 
-    .gallery-display {
-        display: flex;
-        justify-content: space-evenly;
-        max-height: 20%;
-        max-width: 20%;
+    
+ div.gallery-display {
+  margin: 5px;
+  border: 1px solid black;
+  float: left;
+  width: 180px;
+}
 
-
-
-    }
+div.gallery:hover {
+  border: 1px solid red;
+}
 
 
 
