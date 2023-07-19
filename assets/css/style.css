@@ -124,28 +124,28 @@
     #hero-image {
         height: 700px;
         width: 100%;
-        background: url('../images/heroimage.jpg') no-repeat center center;
+        background: url('../images/heroimage.webp') no-repeat center center;
         background-size: cover;
     }
 
     #hero-image2 {
         height: 700px;
         width: 100%;
-        background: url('../images/heroimage2.jpg') no-repeat center center;
+        background: url('../images/heroimage2.webp') no-repeat center center;
         background-size: cover;
     }
 
     #hero-image3 {
         height: 700px;
         width: 100%;
-        background: url('../images/heroimage3.jpg') no-repeat center center;
+        background: url('../images/heroimage3.webp') no-repeat center center;
         background-size: cover;
     }
 
     #hero-image4 {
         height: 700px;
         width: 100%;
-        background: url('../images/heroimage4.jpg') no-repeat center center;
+        background: url('../images/heroimage4.webp') no-repeat center center;
         background-size: cover;
     }
 
@@ -187,45 +187,45 @@
     }
 
     .dales {
-        background: url('../images/dalesbox.jpg') no-repeat center center;
+        background: url('../images/dalesbox.webp') no-repeat center center;
         background-size: cover;
 
     }
 
     .peaks {
-        background: url('../images/peaks.jpg') no-repeat center center;
+        background: url('../images/peaks.webp') no-repeat center center;
         background-size: cover;
     }
 
     .winter {
-        background: url('../images/winter.jpg') no-repeat center center;
+        background: url('../images/winter.webp') no-repeat center center;
         background-size: cover;
     }
 
     /* gallery section and zoom */
 
-    
- div.gallery-display {
-  margin: 5px;
-  border: 1px solid black;
-  float: left;
-  width: 180px;
-}
 
-div.gallery-display:hover {
-  border: 1px solid red;
-}
+    div.gallery-display {
+        margin: 5px;
+        border: 1px solid black;
+        float: left;
+        width: 180px;
+    }
 
-div.gallery-display img {
-  width: 100%;
-  height: auto;
-}
+    div.gallery-display:hover {
+        border: 1px solid red;
+    }
 
-/* check this below */
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
+    div.gallery-display img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* check this below */
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
 
 
     /* photos, about and contact */
