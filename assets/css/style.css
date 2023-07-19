@@ -2,10 +2,10 @@
 
 
     * {
-        margin: 0;
+        margin: 0, 5;
         padding: 0;
         border: none;
-        display: 200vh;
+
     }
 
     body {
@@ -103,8 +103,8 @@
     /* Hero Image*/
 
     #hero-image {
-        
-        
+
+
         height: 700px;
         width: 100%;
         background: url('../images/heroimage.webp') no-repeat center center;
@@ -112,22 +112,6 @@
 
     }
 
-    #logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: center;
-        background: url('../images/logo1.webp');
-        background-size: cover;
-        height: 80px;
-        width: 80px;
-        top: 0px;
-        bottom: 0px;
-        border: 1px solid black;
-        border-radius: 25%;
-        padding: 10px;
-        
-    }
 
     #hero-image2 {
         height: 700px;
@@ -151,20 +135,52 @@
     }
 
 
-    /* Welcome message */
+    /* Welcome message and logo */
+
+    #logo-outer {
+        display: flex;
+        justify-content: flex-start;
+        align-content: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #logo {
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 25%;
+        padding: 0px;
+
+
+    }
+
+    #main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
 
     #intro {
         font-family: roboto, sans-serif;
         margin: 0 30px;
         margin-bottom: 50px;
         letter-spacing: 2px;
+        text-align: left;
+        line-height: 1.5;
     }
 
     #welcome {
-        text-align: left;
+        font-family: Pacifico, sans-serif;
         font-size: 200%;
-        margin: 30px 0px;
-        padding: 30px;
+        padding: 1px;
+        margin-right: 5px;
+        margin-bottom: 0px;
+
+
 
     }
 
@@ -313,4 +329,23 @@
     }
 
     /* Mobile screen styles */
-    @media screen and (max-width: 600px) {}
+    @media screen and (max-width: 600px) {
+        #main {
+            flex-direction: column;
+        }
+
+        #navigation {
+
+            font-size: 80%;
+            letter-spacing: 2px;
+
+        }
+
+        #intro {
+            margin-top: 30px;
+        }
+
+
+
+
+    }
