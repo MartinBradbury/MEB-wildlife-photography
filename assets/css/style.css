@@ -115,7 +115,7 @@
 
     #hero-image2 {
         height: 700px;
-        width: 90%;
+        width: 100%;
         background: url('../images/heroimage2.webp') no-repeat center center;
         background-size: cover;
     }
@@ -185,6 +185,7 @@
     }
 
     /* Gallery section */
+
 
     #gallery {
         display: flex;
@@ -283,6 +284,13 @@
 
     /* Gallery */
 
+    #photo-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     #gallery {
         display: flex;
         justify-content: space-evenly;
@@ -345,7 +353,9 @@
             margin-top: 30px;
         }
 
-
+        #photo-info {
+            align-items: center;
+        }
 
 
     }
