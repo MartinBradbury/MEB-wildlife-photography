@@ -112,7 +112,7 @@
 
     #hero-image2 {
         height: 700px;
-        width: 100%;
+        width: 90%;
         background: url('../images/heroimage2.webp') no-repeat center center;
         background-size: cover;
     }
