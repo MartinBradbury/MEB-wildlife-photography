@@ -310,6 +310,22 @@
         text-align: center;
         justify-items: center;
         margin-top: 60px;
+    }
+
+    /* Mobile screen styles */
+    @media screen and (max-width: 800px) {
+
+        #logo {
+            display: block;
+            margin-left: 10%;
+            margin-right: 10%;
+            height: 135px;
+            width: 350px;
+        }
+
+        #meb-head {
+            visibility: hidden;
+        }
 
 
     }
