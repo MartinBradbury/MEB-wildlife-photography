@@ -317,7 +317,7 @@
 
         #logo {
             display: block;
-            margin-left: 10%;
+            margin-left: 5%;
             margin-right: 10%;
             height: 135px;
             width: 350px;
@@ -326,6 +326,32 @@
         #meb-head {
             visibility: hidden;
         }
+
+        #navigation {
+            display: flex;
+            align-items: space-evenly;
+            font-size: 80%;
+            letter-spacing: 2px;
+            position: center;
+            margin-left: 15%;
+            margin-right: 15%;
+
+        }
+
+
+
+        #navigation li {
+
+            list-style-type: none;
+            padding: 2px;
+            text-transform: uppercase;
+            margin-right: 2%;
+            margin-left: 2%;
+            margin-top: 0%;
+
+
+        }
+
 
 
     }
