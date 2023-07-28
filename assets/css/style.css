@@ -34,13 +34,14 @@
         font-family: Pacifico, sans-serif;
         font-size: 20px;
         letter-spacing: 4px;
-        border-radius: 50%;
+
         padding: 10px;
-        background-color: white;
+        background-color: #ececec;
         border: 1px solid black;
         transition: 0.5s;
         text-decoration: none;
         cursor: pointer;
+
     }
 
     button:hover {
