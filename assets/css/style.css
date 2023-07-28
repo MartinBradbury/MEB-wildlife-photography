@@ -226,6 +226,11 @@
         background-size: cover;
     }
 
+    .lakes {
+        background: url('../images/Lakescover.webp') no-repeat center center;
+        background-size: cover;
+    }
+
     /* gallery section and zoom */
 
 
