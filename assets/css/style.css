@@ -295,6 +295,8 @@
         border-radius: 50%;
         height: 200px;
         width: 200px;
+        background: url('../images/contactme.webp') no-repeat center center;
+        background-size: cover;
     }
 
     #info {
