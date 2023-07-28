@@ -356,7 +356,7 @@
     /* Mobile screen styles */
     /* 
       ##Device = Most of the Smartphones Mobiles (Portrait)
-      ##Screen = B/w 320px to 479px
+      ##Screen = B/w 320px to 480px
     */
 
     @media (min-width: 320px) and (max-width: 480px) {
@@ -376,7 +376,24 @@
             margin-top: 30px;
         }
 
+    }
 
+    /* 
+          ##Device = Most of the Smartphones )landscape and tablets (Portrait)
+          ##Screen = 481px to 930px
+        */
 
+    @media (min-width: 481px) and (max-width: 930px) {
+
+        #main {
+            flex-direction: column;
+        }
 
     }
+
+    /* 
+              ##Device = large tablets and desktops
+              ##Screen = 931px upwards
+            */
+
+    @media (min-width: 931px) {}
