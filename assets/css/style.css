@@ -48,6 +48,19 @@
         color: white;
     }
 
+    #map {
+        height: 200px;
+        width: 100%;
+    }
+
+    #mapbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        margin: 5%;
+    }
+
 
     /* Header */
 
