@@ -130,7 +130,7 @@
     #hero-image2 {
         height: 700px;
         width: 100%;
-        background: url('../images/heroimage2.webp') no-repeat center center;
+        background: url('../images/winter/winter5.webp') no-repeat center center;
         background-size: cover;
     }
 
@@ -172,10 +172,9 @@
 
     #main {
         display: flex;
-        justify-content: center;
-        align-items: center;
-
-
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 50px;
     }
 
     #intro {
@@ -194,14 +193,18 @@
         margin-right: 5px;
         margin-bottom: 0px;
         text-transform: uppercase;
+
     }
 
     #welcome1 {
         font-family: Pacifico, sans-serif;
         font-size: 200%;
-        padding: 1px;
+        padding-top: 0px;
+        padding-right: 2px;
         margin-right: 5px;
         margin-bottom: 0px;
+
+
     }
 
     /* Gallery section */
@@ -286,11 +289,7 @@
 
     /* photos, about and contact */
 
-    #main {
-        display: flex;
-        justify-content: space-evenly;
-        text-align: center;
-    }
+
 
     .description {
         font-family: pacifico, sans-serif;
@@ -394,6 +393,7 @@
 
         #main {
             flex-direction: column;
+            align-items: center;
         }
 
         #navigation {
@@ -418,6 +418,22 @@
 
         }
 
+        #hero-image {
+            height: 400px;
+        }
+
+        #hero-image2 {
+            height: 400px;
+        }
+
+        #hero-image3 {
+            height: 400px;
+        }
+
+        #hero-image4 {
+            height: 400px;
+        }
+
         /* 
           ##Device = Most of the Smartphones )landscape and tablets (Portrait)
           ##Screen = 481px to 930px
@@ -428,14 +444,4 @@
             #main {
                 flex-direction: column;
             }
-
-
-
         }
-
-        /* 
-              ##Device = large tablets and desktops
-              ##Screen = 931px upwards
-            */
-
-        @media screen and (min-width: 931px) {}
