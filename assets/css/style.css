@@ -24,6 +24,8 @@
         margin-bottom: 100px;
     }
 
+
+
     h2 {
         font-family: Roboto, sans-serif;
         font-size: 40px;
@@ -177,13 +179,23 @@
         margin-top: 50px;
     }
 
+    #mainabout {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
     #intro {
         font-family: roboto, sans-serif;
         margin: 0 30px;
         margin-bottom: 50px;
         letter-spacing: 2px;
         text-align: left;
-        line-height: 1.5;
+        line-height: 1.75;
     }
 
     #welcome {
@@ -335,6 +347,28 @@
 
     }
 
+
+    #equipment {
+        flex-direction: column;
+    }
+
+    #camera {
+        border: 2px solid black;
+        border-radius: 25%;
+        background: cover;
+        height: 500px;
+        width: 500px;
+
+    }
+
+    #lens {
+        border: 2px solid black;
+        border-radius: 25%;
+        background: cover;
+        height: 500px;
+        width: 500px;
+    }
+
     /* Gallery */
 
 
@@ -407,6 +441,7 @@
 
         #intro {
             margin-top: 30px;
+
         }
 
         #images {
@@ -432,6 +467,23 @@
 
         #hero-image4 {
             height: 400px;
+        }
+
+        #camera {
+            border: 1px solid black;
+            border-radius: 25%;
+            background: cover;
+            height: 300px;
+            width: 300px;
+
+        }
+
+        #lens {
+            border: 1px solid black;
+            border-radius: 25%;
+            background: cover;
+            height: 300px;
+            width: 300px;
         }
 
         /* 
