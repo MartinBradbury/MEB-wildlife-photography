@@ -257,6 +257,19 @@
         text-align: center;
     }
 
+    /* images in galleries */
+
+    #images {
+        margin-top: 20px;
+        line-height: 5;
+        column-count: 4;
+        column-gap: 5;
+        background-size: cover;
+    }
+
+    #images>img {
+        width: 100%;
+    }
 
     /* photos, about and contact */
 
