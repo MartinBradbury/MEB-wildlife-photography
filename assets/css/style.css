@@ -377,7 +377,7 @@
       ##Screen = B/w 320px to 480px
     */
 
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (min-width: 150px) and (max-width: 480px) {
 
         #main {
             flex-direction: column;
@@ -394,24 +394,40 @@
             margin-top: 30px;
         }
 
-    }
+        #images {
+            margin-top: 10px;
+            line-height: 5;
+            column-count: 2;
+            column-gap: 5;
+            background-size: cover;
 
-    /* 
+        }
+
+        /* 
           ##Device = Most of the Smartphones )landscape and tablets (Portrait)
           ##Screen = 481px to 930px
         */
 
-    @media (min-width: 481px) and (max-width: 930px) {
+        @media (min-width: 481px) and (max-width: 930px) {
 
-        #main {
-            flex-direction: column;
+            #main {
+                flex-direction: column;
+            }
+
+            #images {
+                margin-top: 10px;
+                line-height: 5;
+                column-count: 3;
+                column-gap: 5;
+                background-size: cover;
+
+            }
+
         }
 
-    }
-
-    /* 
+        /* 
               ##Device = large tablets and desktops
               ##Screen = 931px upwards
             */
 
-    @media (min-width: 931px) {}
+        @media (min-width: 931px) {}
