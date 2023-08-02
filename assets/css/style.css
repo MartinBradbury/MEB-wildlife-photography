@@ -118,6 +118,17 @@
 
     /* Hero Image*/
 
+    #hero-imagephotos {
+
+
+        height: 700px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+
+
     #hero-image {
 
 
@@ -548,6 +559,7 @@
             background-size: cover;
 
         }
+
 
         #hero-image {
             height: 400px;
