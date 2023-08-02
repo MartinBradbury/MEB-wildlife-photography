@@ -228,7 +228,40 @@
 
     }
 
-    #box {
+    #boxdales {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px solid black;
+        height: 400px;
+        width: 60%;
+        margin: 20px 0;
+
+    }
+
+    #boxpeaks {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px solid black;
+        height: 400px;
+        width: 60%;
+        margin: 20px 0;
+
+    }
+
+    #boxwinter {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px solid black;
+        height: 400px;
+        width: 60%;
+        margin: 20px 0;
+
+    }
+
+    #boxlakes {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
