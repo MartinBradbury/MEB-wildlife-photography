@@ -343,6 +343,13 @@
     /* photos, about and contact */
 
 
+    #boxlinks {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 50px;
+    }
+
 
     .description {
         font-family: pacifico, sans-serif;
