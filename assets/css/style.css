@@ -2,7 +2,7 @@
 
 
     * {
-        margin: 0, 5;
+
         padding: 0;
         border: none;
         background-color: #ececec;
@@ -166,7 +166,7 @@
     #logo-outer {
         display: flex;
         justify-content: flex-start;
-        align-content: left;
+
         margin-top: 20px;
         margin-left: 20px;
     }
@@ -336,7 +336,7 @@
         margin-top: 20px;
         line-height: 5;
         column-count: 2;
-        column-gap: 5;
+
         background-size: cover;
     }
 
@@ -469,7 +469,7 @@
     #camera {
         border: 2px solid black;
         border-radius: 25%;
-        background: cover;
+
         height: 500px;
         width: 500px;
 
@@ -478,7 +478,7 @@
     #lens {
         border: 2px solid black;
         border-radius: 25%;
-        background: cover;
+
         height: 500px;
         width: 500px;
     }
@@ -566,7 +566,7 @@
             margin-top: 10px;
             line-height: 5;
             column-count: 1;
-            column-gap: 5;
+
             background-size: cover;
 
         }
@@ -594,7 +594,7 @@
         #camera {
             border: 1px solid black;
             border-radius: 25%;
-            background: cover;
+
             height: 300px;
             width: 300px;
 
@@ -603,7 +603,7 @@
         #lens {
             border: 1px solid black;
             border-radius: 25%;
-            background: cover;
+
             height: 300px;
             width: 300px;
         }
@@ -654,3 +654,4 @@
                 flex-direction: column;
             }
         }
+    }
