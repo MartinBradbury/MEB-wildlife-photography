@@ -359,16 +359,14 @@
         border-radius: 50%;
         height: 200px;
         width: 200px;
-        background: url('../images/photome.webp') no-repeat center center;
-        background-size: cover;
+        object-fit: cover;
     }
 
     #about {
         border-radius: 50%;
         height: 200px;
         width: 200px;
-        background: url('../images/aboutme.webp') no-repeat center center;
-        background-size: cover;
+        object-fit: cover;
 
     }
 
@@ -376,8 +374,7 @@
         border-radius: 50%;
         height: 200px;
         width: 200px;
-        background: url('../images/contactme.webp') no-repeat center center;
-        background-size: cover;
+        object-fit: cover;
     }
 
     #info {
