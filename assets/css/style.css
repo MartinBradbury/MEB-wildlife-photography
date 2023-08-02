@@ -198,6 +198,24 @@
         line-height: 1.75;
     }
 
+    #cannoncamera {
+        font-family: roboto, sans-serif;
+        margin: 0 30px;
+        margin-bottom: 50px;
+        letter-spacing: 2px;
+        text-align: left;
+        line-height: 1.75;
+    }
+
+    #cannonlens {
+        font-family: roboto, sans-serif;
+        margin: 0 30px;
+        margin-bottom: 50px;
+        letter-spacing: 2px;
+        text-align: left;
+        line-height: 1.75;
+    }
+
     #welcome {
         font-family: Pacifico, sans-serif;
         font-size: 200%;
