@@ -127,8 +127,6 @@
 
     }
 
-
-
     #hero-image {
 
 
@@ -299,6 +297,14 @@
         width: 60%;
         margin: 20px 0;
 
+    }
+
+    #photohead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Pacifico, sans-serif;
+        font-size: 300%;
     }
 
     .dales {
@@ -544,6 +550,10 @@
 
         }
 
+        #boxlinks {
+            flex-direction: column;
+        }
+
 
 
         #intro {
@@ -560,6 +570,9 @@
 
         }
 
+        #hero-imagephotos {
+            height: 400px;
+        }
 
         #hero-image {
             height: 400px;
