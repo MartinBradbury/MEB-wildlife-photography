@@ -306,46 +306,56 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-bottom: 200px;
+        margin-top: 50px;
+
+
 
     }
 
     .form-label {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+
         font-family: Roboto, sans-serif;
         font-size: 20px;
         padding: 4px;
         line-height: 50px;
-        font-weight: ;
+        font-weight: 50;
 
     }
 
+    .button {
 
+
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 25%;
+        margin-right: 40px;
+        margin-left: 30px;
+    }
 
     .form-control {
         display: flex;
-        width:;
-            height: 30px;
-        padding: 0.375rem 0.75rem rem;
-        font-size: 1rem;
+        width: 400px;
+        height: 30px;
+        padding: 4px;
+        font-size: 150%;
         font-weight: 400;
         line-height: 1.5;
-        color: #495057;
+        color: black;
         background-color: #fff;
-        background-clip: padding-box;
         border: 1px solid black;
         border-radius: 0.25rem;
-        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     }
 
     #message {
         height: 150px;
+
     }
 
     .text-input {
-        font-size: ;
+        font-size: 100%;
+        font-family: Roboto, sans-serif;
     }
 
     .contact-form {
@@ -539,6 +549,36 @@
             background: cover;
             height: 300px;
             width: 300px;
+        }
+
+        #row {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+
+        #form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+        }
+
+        .form-control {
+
+            width: 200px;
+
+        }
+
+        .btn-primary {
+            margin-left: 25%;
+        }
+
+
+        #message {
+            height: 100px;
+
         }
 
         /* 
