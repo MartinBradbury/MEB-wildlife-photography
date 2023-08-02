@@ -260,30 +260,6 @@
         background-size: cover;
     }
 
-    /* gallery section and zoom */
-
-
-    div.gallery-display {
-        margin: 5px;
-        border: 1px solid black;
-        float: left;
-        width: 180px;
-    }
-
-    div.gallery-display:hover {
-        border: 1px solid red;
-    }
-
-    div.gallery-display img {
-        width: 100%;
-        height: auto;
-    }
-
-    /* check this below */
-    div.desc {
-        padding: 15px;
-        text-align: center;
-    }
 
     /* images in galleries */
 
