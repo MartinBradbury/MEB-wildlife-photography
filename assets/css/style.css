@@ -304,7 +304,7 @@
         align-items: center;
         justify-content: center;
         font-family: Pacifico, sans-serif;
-        font-size: 300%;
+        font-size: 250%;
     }
 
     .dales {
@@ -629,6 +629,11 @@
 
         .btn-primary {
             margin-left: 25%;
+            color: black;
+        }
+
+        .btn-secondary {
+            color: black;
         }
 
 
