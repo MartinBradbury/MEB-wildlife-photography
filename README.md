@@ -125,7 +125,7 @@
 # Testing 
 
 ## Lighthouse results:
-(assets/images/lighthouse/lt-results.png)
+(assets/images/lighthouse/ )
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -135,6 +135,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
+# Credits 
+
+
+* [W3schools](https://www.w3schools.com/) - one of the best library of explanation and tutorials.
+* [Codeinstitute](https://codeinstitute.net/) - Thank you to Code Institute and the Love Running Project it supporting me with the code for this project.
+* [Learn Flexbox CSS in 8 Minutes](https://www.youtube.com/watch?v=phWxA89Dy94&t=48s) - Big thankyou to 'Slaying the Dragon' tutorial video on youtube showing how to use Flex box to position items in css.
 
 
 
