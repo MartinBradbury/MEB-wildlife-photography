@@ -153,8 +153,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 # To Do
 
-Improve performance of the Website but adjusting and editing photos to decrease load time. 
-Enable larger preview of each image.
-Add a blog posting board
-add a calander feature to show where and when I will be taking photos
-adapt the site into a hiking / photography website.
+*Improve performance of the Website but adjusting and editing photos to decrease load time. 
+*Enable larger preview of each image.
+*Add a blog posting board
+*Add a calander feature to show where and when I will be taking photos
+*Adapt the site into a hiking / photography website.
