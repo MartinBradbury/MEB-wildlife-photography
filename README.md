@@ -122,6 +122,16 @@
 7. [Adobe Lightroom](https://www.adobe.com/uk/products/photoshop-lightroom.html)
    *Lightroom was used to process and edit photos.
 
+# Testing 
+
+## Lighthouse results:
+![logo](assets/images/lighthouse/lt-results.png)
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+* [W3C Markup Validator](https://validator.w3.org/#validate_by_input+with_options)
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 
 
