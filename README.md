@@ -125,7 +125,7 @@
 # Testing 
 
 ## Lighthouse results:
-![logo](assets/images/lighthouse/lt-results.png)
+(assets/images/lighthouse/lt-results.png)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -142,6 +142,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 To Do.
 
+Improve performance of the Website but adjusting and editing photos to decrease load time. 
 Enable larger preview of each image.
 Add a blog posting board
 add a calander feature to show where and when I will be taking photos
