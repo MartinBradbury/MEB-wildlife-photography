@@ -62,11 +62,11 @@
 
 ### Typography
 
-*	The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+*	The Roboto is the main font used throughout the whole website with Pacifico used to highlight certain headings. Sans Serif is used as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font so it is both attractive and appropriate. Pacifico helps with styling certain headings on the website.
 
 ### Imagery
 
-*	Imagery is critical. A large hero image banner is designed to be eye catching whilst being consistent in all main pages on the website. The image will change on each main page, but the size and location will remain constant. These images should be striking and catch the users attention.
+*	Imagery is critical. A large hero image banner is designed to be eye catching whilst being consistent in all main pages on the website. The image will change on each main page, but the size and location will remain constant. These images should be striking and catch the users attention. MEB Wildlife Photography logo will appear on the Home page to ensure the user knows the purpose of the page. 
 
 
 
@@ -151,7 +151,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
-To Do.
+# To Do
 
 Improve performance of the Website but adjusting and editing photos to decrease load time. 
 Enable larger preview of each image.
