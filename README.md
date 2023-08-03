@@ -102,25 +102,25 @@
 ## Framework, Languages and Programs Used
 
 1. Bootstrap 4.1
-  ### Bootstrap was used to help make the website more responsive and aid with the styling of the website.
+   *Bootstrap was used to help make the website more responsive and aid with the styling of the website.
   
 2. Google Fonts
-  # Google Fonts was used to import different font styles to be used in styling of the website.
+   *Google Fonts was used to import different font styles to be used in styling of the website.
   
 3. Git
-  #Git was used to store the projects code after being phushed from Git.
+   *Git was used to store the projects code after being phushed from Git.
 
 4. GitHub
-   # GitHub is used to store the projects code after being pushed from Git.
+   *GitHub is used to store the projects code after being pushed from Git.
 
 5. Photoshop
-   # Photoshop was used for all photo editing and watermarks.
+   *Photoshop was used for all photo editing and watermarks.
 
 6. Adobe Xd
-   # Xd was used to create the wire frames for the project.
+   *Xd was used to create the wire frames for the project.
 
 7. Adobe Lightroom
-   # Lightroom was used to process and edit photos.
+   *Lightroom was used to process and edit photos.
 
 
 
