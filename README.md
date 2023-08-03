@@ -130,7 +130,7 @@
 Add information here
 
 ## Lighthouse results:
-[!logo](assets/images/desktoplh1.jpg)
+![MEB Wildlife Photography](assets/images/desktoplh1.jpg)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
