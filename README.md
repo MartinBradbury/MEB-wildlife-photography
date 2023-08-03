@@ -116,10 +116,10 @@
 5. [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
    *Photoshop was used for all photo editing and watermarks.
 
-6. [Adobe Xd](https://www.adobe.com/ie/products/Xd.html)
+6. [Adobe Xd](https://helpx.adobe.com/support/xd.html)
    *Xd was used to create the wire frames for the project.
 
-7. [Adobe Lightroom](https://www.adobe.com/ie/products/Ls.html)
+7. [Adobe Lightroom](https://www.adobe.com/uk/products/photoshop-lightroom.html)
    *Lightroom was used to process and edit photos.
 
 
