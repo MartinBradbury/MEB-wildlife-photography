@@ -1,14 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
 
 
-    * {
-
-        padding: 0;
-        border: none;
-        background-color: #ececec;
-
-    }
-
     body {
         font-family: Roboto, sans-serif;
         font-weight: 300;
@@ -20,638 +12,62 @@
         font-size: 20px;
     }
 
-    hr {
-        margin-bottom: 100px;
-    }
 
 
-
+    h1,
     h2 {
-        font-family: Roboto, sans-serif;
-        font-size: 40px;
-        letter-spacing: 4px;
-    }
-
-    button {
         font-family: Pacifico, sans-serif;
-        font-size: 20px;
-        letter-spacing: 4px;
-        padding: 10px;
-        background-color: #ececec;
-        border: 1px solid black;
-        transition: 0.5s;
-        text-decoration: none;
-        cursor: pointer;
-        color: black;
 
     }
 
-    button:hover {
-        background-color: black;
+
+    .hero {
+        background-image: url('../images/lakes/lakes2.webp');
+        background-size: cover;
+        background-position: center;
+        width: 100wh;
+        height: 100vh;
+        display: flex;
+    }
+
+    .center-content {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    & h1,
+    h3 {
         color: white;
+        line-height: 1;
     }
 
-    #map {
-        height: 200px;
-        width: 100%;
-    }
-
-    #mapbox {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid black;
-        margin: 5%;
-    }
-
-
-    /* Header */
-
-    header {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: 0;
-        background-color: #ececec;
-        padding: 1em;
-    }
-
-    /* MEB head and logo image */
-
-    /* Navigation bar and links */
-
-
-    #navigation {
-        display: flex;
-        justify-content: space-evenly;
-        font-size: 110%;
-        letter-spacing: 4px;
-
-    }
-
-
-
-    #navigation li {
-
-        list-style-type: none;
-        padding: 5px;
+    & h1 {
         text-transform: uppercase;
-        margin-right: 25px;
-
-
-
-    }
-
-    #navigation a {
-
-        text-decoration: none;
-        color: inherit;
-    }
-
-    #navigation a:hover {
-        transition: 0.5s;
-        color: red;
-    }
-
-    .active {
-        border-bottom: 1px solid #3a3a3a;
-    }
-
-    /* Hero Image*/
-
-    #hero-imagephotos {
-
-
-        height: 700px;
-        width: 100%;
-        object-fit: cover;
-
-    }
-
-    #hero-image {
-
-
-        height: 700px;
-        width: 100%;
-        background: url('../images/heroimage.webp') no-repeat center center;
-        background-size: cover;
-
-    }
-
-
-    #hero-image2 {
-        height: 700px;
-        width: 100%;
-        background: url('../images/winter/winter5.webp') no-repeat center center;
-        background-size: cover;
-    }
-
-    #hero-image3 {
-        height: 700px;
-        width: 100%;
-        background: url('../images/heroimage3.webp') no-repeat center center;
-        background-size: cover;
-    }
-
-    #hero-image4 {
-        height: 700px;
-        width: 100%;
-        background: url('../images/heroimage4.webp') no-repeat center center;
-        background-size: cover;
-    }
-
-
-    /* Welcome message and logo */
-
-    #logo-outer {
-        display: flex;
-        justify-content: flex-start;
-
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-
-    #logo {
-        background-size: cover;
-        height: 200px;
-        width: 209px;
-        border: 1px solid black;
-        border-radius: 25%;
-        padding: 0px;
-
-
-    }
-
-    #main {
-        display: flex;
-        justify-content: space-evenly;
+        font-size: 3em;
+        margin-bottom: 0;
         text-align: center;
-        margin-top: 50px;
     }
 
-    #mainabout {
-        display: flex;
-        justify-content: space-evenly;
-        text-align: center;
-        margin-top: 50px;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    #intro {
-        font-family: roboto, sans-serif;
-        margin: 0 30px;
-        margin-bottom: 50px;
-        letter-spacing: 2px;
-        text-align: left;
-        line-height: 1.75;
-    }
-
-    #cannoncamera {
-        font-family: roboto, sans-serif;
-        margin: 0 30px;
-        margin-bottom: 50px;
-        letter-spacing: 2px;
-        text-align: left;
-        line-height: 1.75;
-    }
-
-    #cannonlens {
-        font-family: roboto, sans-serif;
-        margin: 0 30px;
-        margin-bottom: 50px;
-        letter-spacing: 2px;
-        text-align: left;
-        line-height: 1.75;
-    }
-
-    #welcome {
-        font-family: Pacifico, sans-serif;
-        font-size: 200%;
-        padding: 1px;
-        margin-right: 5px;
-        margin-bottom: 0px;
-        text-transform: uppercase;
-
-    }
-
-    #welcome1 {
-        font-family: Pacifico, sans-serif;
-        font-size: 200%;
-        padding-top: 0px;
-        padding-right: 2px;
-        margin-right: 5px;
-        margin-bottom: 0px;
-
-
-    }
-
-    /* Gallery section */
-
-
-    #gallery {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    #boxdales {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        border: 1px solid black;
-        height: 400px;
-        width: 60%;
-        margin: 20px 0;
-
-    }
-
-    #boxpeaks {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        border: 1px solid black;
-        height: 400px;
-        width: 60%;
-        margin: 20px 0;
-
-    }
-
-    #boxwinter {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        border: 1px solid black;
-        height: 400px;
-        width: 60%;
-        margin: 20px 0;
-
-    }
-
-    #boxlakes {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        border: 1px solid black;
-        height: 400px;
-        width: 60%;
-        margin: 20px 0;
-
-    }
-
-    #photohead {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Pacifico, sans-serif;
-        font-size: 250%;
-    }
-
-    .dales {
-        background: url('../images/dalesbox.webp') no-repeat center center;
-        background-size: cover;
-
-    }
-
-    .peaks {
-        background: url('../images/peaks.webp') no-repeat center center;
-        background-size: cover;
-    }
-
-    .winter {
-        background: url('../images/winter.webp') no-repeat center center;
-        background-size: cover;
-    }
-
-    .lakes {
-        background: url('../images/Lakescover.webp') no-repeat center center;
-        background-size: cover;
-    }
-
-
-    /* images in galleries */
-
-    #images {
-        margin-top: 20px;
-        line-height: 5;
-        column-count: 2;
-
-        background-size: cover;
-    }
-
-    #images>img {
-        width: 100%;
-    }
-
-    /* form */
-
-    #row {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 200px;
-        margin-top: 50px;
-
-
-
-    }
-
-    .form-label {
-
-        font-family: Roboto, sans-serif;
-        font-size: 20px;
-        padding: 4px;
-        line-height: 50px;
-        font-weight: 50;
-
+    & h3 {
+        margin-bottom: 40px;
+        font-size: 1.5em;
+        font-weight: normal;
     }
 
     .button {
-
-
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-        border-radius: 25%;
-        margin-right: 40px;
-        margin-left: 30px;
-    }
-
-    .form-control {
-        display: flex;
-        width: 400px;
-        height: 30px;
-        padding: 4px;
-        font-size: 150%;
-        font-weight: 400;
-        line-height: 1.5;
-        color: black;
-        background-color: #fff;
-        border: 1px solid black;
-        border-radius: 0.25rem;
-    }
-
-    #message {
-        height: 150px;
-
-    }
-
-    .text-input {
-        font-size: 100%;
-        font-family: Roboto, sans-serif;
-    }
-
-    .contact-form {
-        max-height: 400px;
-
-
-    }
-
-    /* photos, about and contact */
-
-
-    #boxlinks {
-        display: flex;
-        justify-content: space-evenly;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-
-    .description {
-        font-family: pacifico, sans-serif;
         text-transform: uppercase;
-        font-size: 100%;
-        margin-top: 20px;
-        letter-spacing: 2px;
-
+        color: white;
+        padding: 20px;
+        border: 1px solid white;
+        text-decoration: none;
+        font-family: roboto;
     }
 
-
-
-    #photo {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-    }
-
-    #about {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-
-    }
-
-    #contact {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        object-fit: cover;
-    }
-
-    #info {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-
-    }
-
-
-    #equipment {
-        flex-direction: column;
-    }
-
-    #camera {
-        border: 2px solid black;
-        border-radius: 25%;
-
-        height: 500px;
-        width: 500px;
-
-    }
-
-    #lens {
-        border: 2px solid black;
-        border-radius: 25%;
-
-        height: 500px;
-        width: 500px;
-    }
-
-    /* Gallery */
-
-
-    #gallery {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    #gimage {
-        border: 1px solid black;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-
-
-    /* footer */
-
-    footer {
-        height: 100px;
-
-    }
-
-    .social-networks {
-        text-align: center;
-
-    }
-
-    .social-networks>li {
-        display: inline;
-    }
-
-    .social-networks i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: #3a3a3a;
-    }
-
-    #copyright {
-        font-family: Roboto, sans-serif;
-        text-align: center;
-        justify-items: center;
-        margin-top: 60px;
-    }
-
-    /* Mobile screen styles */
-    /* 
-      ##Device = Most of the Smartphones Mobiles (Portrait)
-      ##Screen = B/w 320px to 480px
-    */
-
-    @media (min-width: 320px) and (max-width: 480px) {
-
-        #main {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        #navigation {
-
-            font-size: 80%;
-            letter-spacing: 2px;
-
-        }
-
-        #boxlinks {
-            flex-direction: column;
-        }
-
-
-
-        #intro {
-            margin-top: 30px;
-
-        }
-
-        #images {
-            margin-top: 10px;
-            line-height: 5;
-            column-count: 1;
-
-            background-size: cover;
-
-        }
-
-        #hero-imagephotos {
-            height: 400px;
-        }
-
-        #hero-image {
-            height: 400px;
-        }
-
-        #hero-image2 {
-            height: 400px;
-        }
-
-        #hero-image3 {
-            height: 400px;
-        }
-
-        #hero-image4 {
-            height: 400px;
-        }
-
-        #camera {
-            border: 1px solid black;
-            border-radius: 25%;
-
-            height: 300px;
-            width: 300px;
-
-        }
-
-        #lens {
-            border: 1px solid black;
-            border-radius: 25%;
-
-            height: 300px;
-            width: 300px;
-        }
-
-        #row {
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-
-        #form {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: center;
-
-        }
-
-        .form-control {
-
-            width: 200px;
-
-        }
-
-        .btn-primary {
-            margin-left: 25%;
-            color: black;
-        }
-
-        .btn-secondary {
-            color: black;
-        }
-
-
-        #message {
-            height: 100px;
-
-        }
-
-        /* 
-          ##Device = Most of the Smartphones )landscape and tablets (Portrait)
-          ##Screen = 481px to 930px
-        */
-
-        @media (min-width: 481px) and (max-width: 930px) {
-
-            #main {
-                flex-direction: column;
-            }
-        }
+    .button:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.7);
+        color: white;
     }
