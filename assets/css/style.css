@@ -9,7 +9,8 @@
 
     p {
         font-family: Roboto, sans-serif;
-        font-size: 20px;
+        font-size: 30px;
+        letter-spacing: 2px;
     }
 
 
@@ -246,21 +247,23 @@
             flex-direction: row;
             flex-wrap: wrap;
             width: 100%;
+            margin: 15px;
         }
 
         .column {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             flex-basis: 100%;
             flex: 1;
+            margin: 15px;
         }
 
         .main-image {
             height: 100%;
             width: 100%;
-            margin: 5px
+
         }
 
         #imageme {
@@ -271,12 +274,19 @@
 
         .main-about {
             background-color: ;
+            border: 1px solid black;
+            border-radius: 25%;
+            box-shadow: -10px 10px 5px black;
             height: 100%;
             width: 100%;
-            margin: 5px;
         }
 
-        .green-column {
+        #aboutme {
+            margin: 10%;
+        }
+
+        .main-gallery {
             background-color: green;
-            height: 100px;
+            height: 100%;
+            width: 100%;
         }
