@@ -251,7 +251,7 @@
 
         /* border for all menu items but the last one */
         .menu>li:not(:last-child) {
-            border-bottom: 1px solid #444;
+            border-bottom: 1px solid #444
         }
 
         /* Card Main Section */
@@ -270,7 +270,6 @@
         .row {
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
             width: 100%;
             margin: 15px;
 
@@ -288,7 +287,7 @@
         }
 
         .main-image {
-            height: 100%;
+
             width: 100%;
 
         }
@@ -300,12 +299,13 @@
         }
 
         .main-about {
-            background-color: ;
-            border: 1px solid black;
-            border-radius: 25%;
-            box-shadow: -10px 10px 5px black;
+
             height: 100%;
             width: 100%;
+        }
+
+        .main-about p {
+            font-size: 20px;
         }
 
         #aboutme {
@@ -408,6 +408,145 @@
 
         }
 
+        /* Gallery Section */
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .trans {
+            transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+        }
+
+        .top {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            height: 90%;
+            margin-top: 10vh;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10vh;
+
+        }
+
+        .top ul {
+            list-style: none;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            box-sizing: border-box;
+
+        }
+
+        .top ul li {
+            position: relative;
+            float: left;
+            width: 25%;
+            height: 25%;
+            overflow: hidden;
+            box-shadow: 5px 5px 5px black;
+
+        }
+
+        .top ul li::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            content: '';
+            color: white;
+            opacity: 0.4;
+            text-align: center;
+            box-sizing: border-box;
+            pointer-events: none;
+            transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+        }
+
+        .top ul li:hover::before {
+            opacity: 0;
+            background-color: rgba(0, 0, 0, 0.90);
+        }
+
+        .top ul li img {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+        .lightbox {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.75);
+            z-index: 999;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .lightbox img {
+            max-width: 90%;
+            max-height: 80%;
+            position: relative;
+            top: -100%;
+
+            /* Transition */
+            transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+        }
+
+        .lightbox:target {
+            outline: none;
+            top: 0;
+            opacity: 1;
+            pointer-events: auto;
+            transition: all 1.2s ease;
+            -moz-transition: all 1.2s ease;
+            -ms-transition: all 1.2s ease;
+            -o-transition: all 1.2s ease;
+            -webkit-transition: all 1.2s ease;
+        }
+
+        .lightbox:target img {
+            top: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+        }
+
+        #back-button {
+            margin-top: 60px;
+            color: whitesmoke;
+            border: 5px solid whitesmoke;
+            font-size: 200%;
+            text-shadow: 2px 2px 5px red;
+            box-shadow: 2px 2px 5px red;
+        }
+
         /* Box button and text styling*/
 
         #box-button {
@@ -458,157 +597,24 @@
     /* Gallery section test*/
 
 
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-
-    }
-
-    .trans {
-        transition: all 1s ease;
-        -moz-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-        -o-transition: all 1s ease;
-        -webkit-transition: all 1s ease;
-    }
-
-    .top {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        height: 90%;
-        margin-top: 10vh;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 10vh;
-
-    }
-
-    .top ul {
-        list-style: none;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        box-sizing: border-box;
-
-    }
-
-    .top ul li {
-        position: relative;
-        float: left;
-        width: 25%;
-        height: 25%;
-        overflow: hidden;
-        box-shadow: 5px 5px 5px black;
-
-    }
-
-    .top ul li::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #000;
-        content: '';
-        color: white;
-        opacity: 0.4;
-        text-align: center;
-        box-sizing: border-box;
-        pointer-events: none;
-        transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -ms-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-    }
-
-    .top ul li:hover::before {
-        opacity: 0;
-        background-color: rgba(0, 0, 0, 0.90);
-    }
-
-    .top ul li img {
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-    }
-
-    .lightbox {
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        top: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.75);
-        z-index: 999;
-        opacity: 0;
-        pointer-events: none;
-    }
-
-    .lightbox img {
-        max-width: 90%;
-        max-height: 80%;
-        position: relative;
-        top: -100%;
-
-        /* Transition */
-        transition: all 1s ease;
-        -moz-transition: all 1s ease;
-        -ms-transition: all 1s ease;
-        -o-transition: all 1s ease;
-        -webkit-transition: all 1s ease;
-    }
-
-    .lightbox:target {
-        outline: none;
-        top: 0;
-        opacity: 1;
-        pointer-events: auto;
-        transition: all 1.2s ease;
-        -moz-transition: all 1.2s ease;
-        -ms-transition: all 1.2s ease;
-        -o-transition: all 1.2s ease;
-        -webkit-transition: all 1.2s ease;
-    }
-
-    .lightbox:target img {
-        top: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-    }
-
-    #back-button {
-        margin-top: 60px;
-        color: whitesmoke;
-        border: 5px solid whitesmoke;
-        font-size: 200%;
-        text-shadow: 2px 2px 5px red;
-        box-shadow: 2px 2px 5px red;
-    }
-
 
 
 
     /* MEDIA */
 
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (min-width: 390px) and (max-width: 480px) {
 
-        h1 {
-            font-size: 40px;
+        & h1 {
+            font-size: 2.25em;
+            margin-bottom: 5%;
+
         }
 
         h2,
         h3 {
             font-size: 120%;
+
+
 
         }
 
@@ -619,9 +625,10 @@
         .row {
             flex-direction: column;
             margin: 0;
+
         }
 
-        .main-about {}
+
 
         p {
             font-size: 15px;
@@ -629,13 +636,29 @@
 
         .column {
             margin-top: 5px 0px;
+            padding: 0;
 
+        }
+
+        .main-about {
+
+            width: 100%;
         }
 
         .main-gallery {
+
             height: 400px;
-            width: 350px;
+            width: 100%;
+
         }
+
+        .main-gallery-text {
+            width: 350px;
+
+
+        }
+
+
 
         .social-network i {
             font-size: 40px;
@@ -648,7 +671,6 @@
 
         .social-network {
             display: flex;
-
             list-style-type: none;
             float: left;
             margin-left: 50px;
@@ -656,7 +678,8 @@
         }
 
         .top-nav {
-            height: 6vh;
+            height: 6.45vh;
+
         }
 
         .toggler:checked~.menu li {
@@ -670,6 +693,8 @@
 
         .dales-box {
             height: 300px;
+            margin-top: -20px;
+
         }
 
         .peaks-box {
@@ -684,11 +709,26 @@
             height: 300px;
         }
 
-
-
-        .main-gallery-text {
+        .top ul li {
             width: auto;
+            margin-bottom: 10px;
+
         }
+
+        .top {
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        #back-button {
+            margin-bottom: 10px;
+
+        }
+
+
+
+
+
 
 
 
