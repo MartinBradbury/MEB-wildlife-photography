@@ -286,7 +286,19 @@
         }
 
         .main-gallery {
-            background-color: green;
-            height: 100%;
+            background-image: url('../images/lakes/lakes2.webp');
+            background-size: cover;
+            background-position: center;
             width: 100%;
+            height: 100vh;
+            display: flex;
+            box-shadow: -10px 10px 5px black;
+        }
+
+        .main-gallery-text {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
         }
