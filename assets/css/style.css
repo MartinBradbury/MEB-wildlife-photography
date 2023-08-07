@@ -104,9 +104,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        background: linear-gradient(to left, grey, black);
+        background: grey;
         color: #fff;
-        height: 5vh;
+        height: 50px;
         padding: 1em;
         width: 100%;
     }
@@ -116,7 +116,6 @@
         display: flex;
         flex-direction: row;
         list-style-type: none;
-        margin-top: 0;
         padding: 0;
         font-family: Roboto, sans-serif;
 
@@ -251,7 +250,7 @@
 
         /* border for all menu items but the last one */
         .menu>li:not(:last-child) {
-            border-bottom: 1px solid #444
+            border-bottom: 1px solid grey;
         }
 
         /* Card Main Section */
@@ -344,7 +343,7 @@
             font-family: roboto, sans-serif;
             letter-spacing: 2px;
             font-size: 200%;
-            /*may need to add margin here*/
+            margin-bottom: -15px;
             text-shadow: 2px 2px 5px grey;
         }
 
@@ -355,10 +354,10 @@
             justify-content: space-evenly;
             align-items: center;
             border: 1px solid black;
-            border-radius: 20%;
+
             box-shadow: -10px 10px 5px black;
             height: 500px;
-            width: 100%;
+            width: 95%;
             margin: 20px 0;
 
         }
@@ -370,10 +369,10 @@
             justify-content: space-evenly;
             align-items: center;
             border: 1px solid black;
-            border-radius: 20%;
+
             box-shadow: -10px 10px 5px black;
             height: 500px;
-            width: 100%;
+            width: 95%;
             margin: 20px 0;
 
         }
@@ -385,10 +384,10 @@
             justify-content: space-evenly;
             align-items: center;
             border: 1px solid black;
-            border-radius: 20%;
+
             box-shadow: -10px 10px 5px black;
             height: 500px;
-            width: 100%;
+            width: 95%;
             margin: 20px 0;
 
         }
@@ -400,10 +399,10 @@
             justify-content: space-evenly;
             align-items: center;
             border: 1px solid black;
-            border-radius: 20%;
+
             box-shadow: -10px 10px 5px black;
             height: 500px;
-            width: 100%;
+            width: 95%;
             margin: 20px 0;
 
         }
@@ -731,74 +730,6 @@
 
 
 
-
-
-
-
-        #main {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        #navigation {
-
-            font-size: 80%;
-            letter-spacing: 2px;
-
-        }
-
-        #boxlinks {
-            flex-direction: column;
-        }
-
-
-        #intro {
-            margin-top: 30px;
-
-        }
-
-        #images {
-            margin-top: 10px;
-            line-height: 5;
-            column-count: 1;
-
-            background-size: cover;
-
-        }
-
-
-        #row {
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-
-        #form {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: center;
-
-        }
-
-        .form-control {
-
-            width: 200px;
-
-        }
-
-        .btn-primary {
-            margin-left: 25%;
-            color: black;
-        }
-
-        .btn-secondary {
-            color: black;
-        }
-
-        #message {
-            height: 100px;
-
-        }
 
         /* 
               ##Device = Most of the Smartphones )landscape and tablets (Portrait)
