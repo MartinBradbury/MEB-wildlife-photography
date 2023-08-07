@@ -14,16 +14,25 @@
 <body>
     <header>
 
-        <nav>
+        <nav class="top-nav">
 
-            <ul id="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#" class="active">photos</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="contact.html">contact</a></li>
+            <div class="logo">
+                MEB Photography
+            </div>
+
+            <input id="menu-toggle" type="checkbox" class="toggler" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+
+            <ul class="menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/photos.html" class="active">Gallery</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
-        </nav>
 
+        </nav>
     </header>
 
     <!--Hero Image-->
@@ -32,52 +41,54 @@
     </div>
 
     <!--Welcome message-->
-    <section>
-        <div id="info">
-            <h2 id="welcome">Gallery</h2>
-            <p id="intro">Please take a look at the different photos I have taken in a variety of locations around
-                England. </p>
+    <section class="gallery-box">
+        <div>
+            <h2>Please take a look at the different photos I have taken in a variety of locations around
+                England. </h2>
+
         </div>
-        <div id="gallery">
-            <div id="boxdales" class="dales"><button onclick="window.location.href='dales.html';">ENTER</button></div>
-            <h2>Yorkshire Dales</h2>
-            <hr>
-            <div id="boxpeaks" class="peaks"><button onclick="window.location.href='peaks.html';">ENTER</button></div>
-            <h2>Peak District</h2>
-            <hr>
-            <div id="boxwinter" class="winter"><button onclick="window.location.href='winter.html';">ENTER</button>
+        <div class='row'>
+            <div class='column'>
+                <div class='dales-box'>
+                    <div class="main-gallery-text">
+
+                        <h3 id="box-text">The Yorkshire Dales</h3>
+                        <br>
+                        <a href="/photos.html" class="button" id="box-button">ENTER</a>
+                    </div>
+                </div>
+                <div class='peaks-box'>
+                    <div class="main-gallery-text">
+
+                        <h3 id="box-text">The Peak District</h3>
+                        <br>
+                        <a href="/photos.html" class="button" id="box-button">ENTER</a>
+                    </div>
+                </div>
+                <div class='lincoln-box'>
+                    <div class="main-gallery-text">
+
+                        <h3 id="box-text">Lincolnshire in Winter</h3>
+                        <br>
+                        <a href="/photos.html" class="button" id="box-button">ENTER</a>
+                    </div>
+                </div>
+                <div class='lakes-box'>
+                    <div class="main-gallery-text">
+
+                        <h3 id="box-text">The Lake District</h3>
+                        <br>
+                        <a href="/photos.html" class="button" id="box-button">ENTER</a>
+                    </div>
+                </div>
             </div>
-            <h2>Lincoln (Winter)</h2>
-            <hr>
-            <div id="boxlakes" class="lakes"><button onclick="window.location.href='lakes.html';">ENTER</button></div>
-            <h2>Lake District</h2>
-            <hr>
         </div>
+
+
 
     </section>
 
 
-
-    <!--box link section-->
-    <div id="boxlinks">
-
-        <div class="description">
-            <a href="photos.html"><img src="/assets/images/photome.webp" alt="Photo of me looking up Helvellyn"
-                    id="photo"></a>
-            <h2>Photos <i class="fa-solid fa-camera"></i></h2>
-        </div>
-        <div class="description">
-            <a href="about.html"><img src="/assets/images/aboutme.webp"
-                    alt="Photo of me looking on a mountain looking towards the camera" id="about"></a>
-            <h2>About <i class="fa-solid fa-address-card"></i></h2>
-        </div>
-        <div class="description">
-            <a href="contact.html"><img src="/assets/images/contactme.webp"
-                    alt="Me tlooking towards the camera with Ambleside in the background." id="contact"></a>
-            <h2>Contact <i class="fa-solid fa-address-book"></i></h2>
-        </div>
-
-    </div>
 
     <footer>
         <ul class="social-networks">

@@ -80,6 +80,7 @@
         border: 1px solid white;
         text-decoration: none;
         font-family: roboto;
+        border-radius: 25%;
     }
 
     .button:hover {
@@ -323,7 +324,91 @@
             margin: auto;
         }
 
+        /* Gallery section */
 
+        .gallery-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .dales-box {
+            background: url('../images/dales/dales5.webp') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 20%;
+            box-shadow: -10px 10px 5px black;
+            height: 500px;
+            width: 100%;
+            margin: 20px 0;
+
+        }
+
+        .peaks-box {
+            background: url('../images/peaks.webp') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 20%;
+            box-shadow: -10px 10px 5px black;
+            height: 500px;
+            width: 100%;
+            margin: 20px 0;
+
+        }
+
+        .lincoln-box {
+            background: url('../images/winter.webp') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 20%;
+            box-shadow: -10px 10px 5px black;
+            height: 500px;
+            width: 100%;
+            margin: 20px 0;
+
+        }
+
+        .lakes-box {
+            background: url('../images/Lakescover.webp') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 20%;
+            box-shadow: -10px 10px 5px black;
+            height: 500px;
+            width: 100%;
+            margin: 20px 0;
+
+        }
+
+        /* Box button and text styling*/
+
+        #box-button {
+            color: whitesmoke;
+            border: 5px solid whitesmoke;
+            font-size: 200%;
+            text-shadow: 2px 2px 5px red;
+            box-shadow: 2px 2px 5px red;
+        }
+
+        #box-text {
+            color: whitesmoke;
+            font-size: 200%;
+            text-shadow: 2px 2px 5px red;
+
+        }
 
 
 
@@ -360,3 +445,4 @@
             margin: 0;
             padding: 0;
         }
+    }
