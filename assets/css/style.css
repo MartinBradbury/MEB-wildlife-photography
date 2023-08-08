@@ -13,6 +13,8 @@
 
     }
 
+
+
     p {
         font-family: 'Old Standard TT', 'sans-serif';
         font-size: 30px;
@@ -386,7 +388,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
+
     }
+
 
 
     .dales-box {
@@ -442,6 +447,7 @@
     .container {
         width: 100%;
         height: 100%;
+        background-color: black;
     }
 
     .trans {
@@ -562,6 +568,7 @@
     #button-gallery {
         margin-bottom: 100px;
     }
+
 
 
 
@@ -742,4 +749,9 @@
 
         /* CSS */
 
+    }
+
+    #gallery-head {
+        background-color: black;
+        color: white;
     }
