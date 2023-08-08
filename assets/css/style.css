@@ -911,9 +911,138 @@
 
     /*Device=Tablets,
     Ipads (landscape) ##Screen=B/w 768px to 1024px */
-    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    @media (min-width: 768px) and (max-width: 1024px) {
 
-        /* CSS */
+        & h1 {
+            font-size: 2.5em;
+            margin-bottom: 5%;
+
+        }
+
+        h2,
+        h3 {
+            font-size: 1.5em;
+
+
+
+        }
+
+        .hero {
+            width: 100%;
+        }
+
+        .row {
+            flex-direction: column;
+            margin: 0;
+
+        }
+
+
+
+        p {
+            font-size: 15px;
+        }
+
+        .column {
+            margin-top: 5px 0px;
+            padding: 0;
+
+        }
+
+        .main-about {
+
+            width: 100%;
+        }
+
+        .main-gallery {
+
+            height: 400px;
+            width: 100%;
+
+        }
+
+        .main-gallery-text {
+            width: 350px;
+
+
+        }
+
+        .social-network {
+            display: flex;
+            list-style-type: none;
+            float: left;
+            margin-left: 36%;
+
+
+
+        }
+
+        .top-nav {
+            height: 6.45vh;
+
+        }
+
+        .toggler:checked~.menu li {
+            height: 2em;
+        }
+
+
+        .dales-box {
+            height: 300px;
+
+
+        }
+
+        .peaks-box {
+            height: 300px;
+        }
+
+        .lincoln-box {
+            height: 300px;
+        }
+
+        .lakes-box {
+            height: 300px;
+        }
+
+        .top ul {
+            width: 100%;
+            height: 80%;
+            margin-left: 80px;
+        }
+
+        .top ul li {
+            width: 50%;
+            margin-bottom: 0px;
+
+        }
+
+        .top {
+            align-items: center;
+            justify-content: center;
+            margin: 0px 20px;
+        }
+
+        #back-button {
+            margin-bottom: 10px;
+
+        }
+
+        #button-gallery {
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            width: 80%;
+            margin-left: 80px;
+            margin-bottom: 20px;
+
+        }
+
+        #form {
+            width: 80%;
+
+        }
 
     }
 
