@@ -170,7 +170,8 @@
     }
 
     .active {
-        border-bottom: 1px solid red;
+
+        color: red;
     }
 
     .menu>li {
@@ -442,6 +443,10 @@
 
     /* Gallery Section */
 
+    #gallery-head {
+        background-color: black;
+        color: white;
+    }
 
 
     .container {
@@ -569,6 +574,64 @@
         margin-bottom: 100px;
     }
 
+    /* form */
+
+    #row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+        margin-top: 50px;
+
+
+    }
+
+    #form {
+        background-color: rgb(180, 180, 180);
+    }
+
+    .form-label {
+
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        padding: 4px;
+        line-height: 50px;
+        font-weight: 50;
+
+    }
+
+    .button {}
+
+    .form-control {
+        display: flex;
+        width: 400px;
+        height: 30px;
+        padding: 4px;
+        font-size: 150%;
+        font-weight: 400;
+        line-height: 1.5;
+        color: black;
+        background-color: #fff;
+        border: 1px solid black;
+        border-radius: 0.25rem;
+    }
+
+    #message {
+        height: 150px;
+
+    }
+
+    .text-input {
+        font-size: 100%;
+        font-family: Roboto, sans-serif;
+    }
+
+    .contact-form {
+        max-height: 400px;
+
+    }
+
 
 
 
@@ -601,10 +664,6 @@
         text-shadow: 2px 2px 2px grey;
 
     }
-
-
-
-    /* Gallery section test*/
 
 
 
@@ -686,10 +745,6 @@
             height: 2em;
         }
 
-        .active {
-            border: none;
-
-        }
 
         .dales-box {
             height: 300px;
@@ -732,7 +787,125 @@
     Mobiles (Landscape) ##Screen=B/w 481px to 767px */
     @media (min-width: 481px) and (max-width: 767px) {
 
-        /* CSS */
+        & h1 {
+            font-size: 2.5em;
+            margin-bottom: 5%;
+
+        }
+
+        h2,
+        h3 {
+            font-size: 1.5em;
+
+
+
+        }
+
+        .hero {
+            width: 100%;
+        }
+
+        .row {
+            flex-direction: column;
+            margin: 0;
+
+        }
+
+
+
+        p {
+            font-size: 15px;
+        }
+
+        .column {
+            margin-top: 5px 0px;
+            padding: 0;
+
+        }
+
+        .main-about {
+
+            width: 100%;
+        }
+
+        .main-gallery {
+
+            height: 400px;
+            width: 100%;
+
+        }
+
+        .main-gallery-text {
+            width: 350px;
+
+
+        }
+
+        .social-network {
+            display: flex;
+            list-style-type: none;
+            float: left;
+            margin-left: 32%;
+
+
+
+        }
+
+        .top-nav {
+            height: 6.45vh;
+
+        }
+
+        .toggler:checked~.menu li {
+            height: 2em;
+        }
+
+
+        .dales-box {
+            height: 300px;
+
+
+        }
+
+        .peaks-box {
+            height: 300px;
+        }
+
+        .lincoln-box {
+            height: 300px;
+        }
+
+        .lakes-box {
+            height: 300px;
+        }
+
+        .top ul {
+            width: 100%;
+            height: 80%;
+            margin-left: 80px;
+        }
+
+        .top ul li {
+            width: 50%;
+            margin-bottom: 0px;
+
+        }
+
+        .top {
+            align-items: center;
+            justify-content: center;
+            margin: 0px 20px;
+        }
+
+        #back-button {
+            margin-bottom: 10px;
+
+        }
+
+        #button-gallery {
+            margin-bottom: 10px;
+        }
+
 
     }
 
@@ -748,70 +921,5 @@
     @media (min-width: 1281px) {
 
         /* CSS */
-
-    }
-
-    #gallery-head {
-        background-color: black;
-        color: white;
-    }
-
-
-
-    /* form */
-
-    #row {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 200px;
-        margin-top: 50px;
-
-
-    }
-
-    #form {
-        background-color: rgb(180, 180, 180);
-    }
-
-    .form-label {
-
-        font-family: Roboto, sans-serif;
-        font-size: 20px;
-        padding: 4px;
-        line-height: 50px;
-        font-weight: 50;
-
-    }
-
-    .button {}
-
-    .form-control {
-        display: flex;
-        width: 400px;
-        height: 30px;
-        padding: 4px;
-        font-size: 150%;
-        font-weight: 400;
-        line-height: 1.5;
-        color: black;
-        background-color: #fff;
-        border: 1px solid black;
-        border-radius: 0.25rem;
-    }
-
-    #message {
-        height: 150px;
-
-    }
-
-    .text-input {
-        font-size: 100%;
-        font-family: Roboto, sans-serif;
-    }
-
-    .contact-form {
-        max-height: 400px;
 
     }
