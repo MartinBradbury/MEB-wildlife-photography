@@ -335,6 +335,10 @@
 
     }
 
+    #logo {
+        width: auto;
+    }
+
     .main-about {
         display: flex;
         flex-direction: column;
@@ -343,6 +347,10 @@
         align-items: center;
         justify-content: center;
 
+    }
+
+    .main-about img {
+        width: 100%;
     }
 
     .main-about p {
@@ -390,9 +398,8 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        border: 1px solid black;
         height: 500px;
-        width: 95%;
+        width: 100%;
         margin: 20px 0;
 
     }
@@ -403,13 +410,9 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        border: 1px solid black;
-
-
         height: 500px;
-        width: 95%;
+        width: 100%;
         margin: 20px 0;
-
     }
 
     .lincoln-box {
@@ -418,13 +421,9 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        border: 1px solid black;
-
-
         height: 500px;
-        width: 95%;
+        width: 100%;
         margin: 20px 0;
-
     }
 
     .lakes-box {
@@ -433,11 +432,8 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        border: 1px solid black;
-
-
         height: 500px;
-        width: 95%;
+        width: 100%;
         margin: 20px 0;
 
     }
