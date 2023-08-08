@@ -7,83 +7,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Amature Wildlife photography">
     <meta name="keywords" content="Photography, Wildlife, Nature, Camera">
-    <title>MEB Wildlife Photography</title>
+    <title>MEB hotography</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
 
-        <nav>
+        <nav class="top-nav">
 
-            <ul id="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="photos.html">photos</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="#" class="active">contact</a></li>
+            <div class="logo">
+                MEB Photography
+            </div>
+
+            <input id="menu-toggle" type="checkbox" class="toggler" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+
+            <ul class="menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html" class="active">About</a></li>
+                <li><a href="/photos.html">Gallery</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
+
         </nav>
 
     </header>
 
-    <!--Hero Image-->
-    <div>
-        <div id="hero-image4"></div>
-    </div>
 
-    <!--Welcome message-->
-    <section>
-        <div id="info">
-            <h2 id="welcome">Contact</h2>
-            <p id="intro">contact info and a from to fill in to request more info </p>
+
+    <section class="welcome-main">
+        <h1 id="welcome-text">Contact</h1>
+        <div class='main-wrapper'>
+            <div class='row'>
+
+                <div class='column'>
+                    <div class='main-image' id="imageme">
+
+                    </div>
+                </div>
+                <div class='column'>
+                    <div class='main-about'>
+                        <img src="/assets/images/logo.jpg" id="logo" alt="MEB Photography logo">
+                        <h2>Contact Form</h2>
+                        <h4>Please get in contact</h4>
+
+                    </div>
+                </div>
+            </div>
+            <!--form-->
+            <div id="row">
+                <form id="form" action="https://formdump.codeinstitute.net" method="POST">
+                    <label for="fname" class="form-label">First Name:</label>
+                    <input type="text" id="fname" name="fname" class="form-control text-input"
+                        placeholder="Your First Name" required>
+                    <label for="lname" class="form-label">Last Name:</label>
+                    <input type="text" id="lname" name="lname" class="form-control text-input"
+                        placeholder="Your Last Name" required>
+                    <label for="email" class="form-label">Email Address:</label>
+                    <input type="email" id="email" name="email" class="form-control text-input"
+                        placeholder="abc@domain.com" required>
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea id="message" name="message" class="form-control text-input" rows="10"
+                        placeholder="Please leave a comment" required></textarea>
+                    <button type="submit" class="button" value="submit">Submit</button>
+                    <button type="reset" class="button" value="reset">Clear Form</button>
+                </form>
+            </div>
         </div>
+
     </section>
 
-    <!--form-->
-    <div id="row">
-        <form id="form" action="https://formdump.codeinstitute.net" method="POST">
-            <label for="fname" class="form-label">First Name:</label>
-            <input type="text" id="fname" name="fname" class="form-control text-input" placeholder="Your First Name"
-                required>
-            <label for="lname" class="form-label">Last Name:</label>
-            <input type="text" id="lname" name="lname" class="form-control text-input" placeholder="Your Last Name"
-                required>
-            <label for="email" class="form-label">Email Address:</label>
-            <input type="email" id="email" name="email" class="form-control text-input" placeholder="abc@domain.com"
-                required>
-            <label for="message" class="form-label">Message:</label>
-            <textarea id="message" name="message" class="form-control text-input" rows="10"
-                placeholder="Please leave a comment" required></textarea>
-            <button type="submit" class="button btn-primary" value="submit">Submit</button>
-            <button type="reset" class="button btn-secondary" value="reset">Clear Form</button>
-        </form>
-    </div>
-
-
-
-    <!--box link section-->
-    <div id="boxlinks">
-
-        <div class="description">
-            <a href="photos.html"><img src="/assets/images/photome.webp" alt="Photo of me looking up Helvellyn"
-                    id="photo"></a>
-            <h2>Photos <i class="fa-solid fa-camera"></i></h2>
-        </div>
-        <div class="description">
-            <a href="about.html"><img src="/assets/images/aboutme.webp"
-                    alt="Photo of me looking on a mountain looking towards the camera" id="about"></a>
-            <h2>About <i class="fa-solid fa-address-card"></i></h2>
-        </div>
-        <div class="description">
-            <a href="contact.html"><img src="/assets/images/contactme.webp"
-                    alt="Me tlooking towards the camera with Ambleside in the background." id="contact"></a>
-            <h2>Contact <i class="fa-solid fa-address-book"></i></h2>
-        </div>
-
-    </div>
 
     <footer>
-        <ul class="social-networks">
+        <ul class="social-network">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens a new tab)"><i class="fa-brands fa-facebook"></i></a>
@@ -107,8 +106,7 @@
 
     </footer>
 
-    <p id="copyright">Copyright MEB wildlife Photography 2023</p>
+
 
     <!--Font Awesome Script-->
     <script src="https://kit.fontawesome.com/ffb93b186b.js" crossorigin="anonymous"></script>
-</body>
