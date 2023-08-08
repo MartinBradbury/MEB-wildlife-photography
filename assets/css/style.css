@@ -25,7 +25,7 @@
     }
 
     li {
-        font-size: 30px;
+        font-size: 15px;
         text-shadow: 2px 2px 5px grey;
 
     }
@@ -641,30 +641,82 @@
 
     /* footer */
 
-    footer {
-        height: 60px;
+    .footer-basic {
+        padding: 40px 0;
         background-color: black;
-
-    }
-
-    .social-network {
-        text-align: center;
-
-    }
-
-    .social-network>li {
-        display: inline;
-    }
-
-    .social-network i {
-        font-size: 40px;
-        list-style-type: none;
-        margin-right: 15px;
         color: white;
-        text-shadow: 2px 2px 2px grey;
+    }
+
+    .footer-basic #footer-li {
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 0;
 
     }
 
+    .footer-basic #footer-li {
+        padding: 0 10px;
+
+    }
+
+    .footer-basic #footer-li a {
+        color: white;
+        text-decoration: none;
+        opacity: 0.6;
+        padding: 10px;
+    }
+
+    .footer-basic #footer-li a:hover {
+        opacity: 1;
+    }
+
+    .footer-basic .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 25px;
+    }
+
+    #footer-li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Montserrat, sans-serif;
+
+    }
+
+    .footer-basic .social>a {
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        border: 1px solid white;
+        margin: 0 8px;
+        color: white;
+        opacity: 0.75;
+    }
+
+    .footer-basic .social>a:hover {
+        opacity: 0.9;
+    }
+
+    .footer-basic .copyright {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 13px;
+        color: #aaa;
+        margin-bottom: 0;
+    }
+
+    .copyright {
+        font-family: Montserrat, sans-serif;
+    }
 
 
 
@@ -727,14 +779,7 @@
 
         }
 
-        .social-network {
-            display: flex;
-            list-style-type: none;
-            float: left;
-            margin-left: 60px;
 
-
-        }
 
         .top-nav {
             height: 6.45vh;
@@ -841,15 +886,7 @@
 
         }
 
-        .social-network {
-            display: flex;
-            list-style-type: none;
-            float: left;
-            margin-left: 32%;
 
-
-
-        }
 
         .top-nav {
             height: 6.45vh;
@@ -967,15 +1004,7 @@
 
         }
 
-        .social-network {
-            display: flex;
-            list-style-type: none;
-            float: left;
-            margin-left: 36%;
 
-
-
-        }
 
         /* Height of nav drop down */
         .top-nav {
