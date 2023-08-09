@@ -1024,3 +1024,152 @@
 
     /*Device=Desktops ##Screen=1281px to higher resolution desktops*/
     @media (min-width: 1025px) {
+        & h1 {
+            font-size: 2.5em;
+            margin-bottom: 5%;
+
+        }
+
+        h2,
+        h3 {
+            font-size: 1.5em;
+
+
+
+        }
+
+        .hero {
+            width: 100%;
+        }
+
+        .row {
+            flex-direction: column;
+            margin: 0;
+
+        }
+
+
+
+        p {
+            font-size: 15px;
+        }
+
+        .column {
+            display: flex;
+            margin-top: 5px 0px;
+            padding: 0;
+
+        }
+
+        #imageme {
+            width: 80%;
+            height: 80%;
+            border-radius: 25%;
+            box-shadow: 2px 2px 5px grey;
+        }
+
+        .main-about {
+
+            width: 100%;
+        }
+
+        .main-about img {
+            width: 80%;
+            border-radius: 25%;
+            box-shadow: 2px 2px 5px grey;
+        }
+
+        .main-gallery {
+
+            height: 400px;
+            width: 100%;
+
+        }
+
+        .main-gallery-text {
+            width: 350px;
+
+
+        }
+
+
+
+        /* Height of nav drop down */
+        .top-nav {
+            height: 5.45vh;
+
+        }
+
+        .toggler:checked~.menu li {
+            height: 2em;
+        }
+
+
+        .dales-box {
+            height: 300px;
+
+
+        }
+
+        .peaks-box {
+            height: 300px;
+        }
+
+        .lincoln-box {
+            height: 300px;
+        }
+
+        .lakes-box {
+            height: 300px;
+        }
+
+        .top ul {
+            width: 100%;
+            height: 80%;
+            margin-left: 80px;
+        }
+
+        .top ul li {
+            width: 50%;
+            margin-bottom: 0px;
+
+        }
+
+        .top {
+            align-items: center;
+            justify-content: center;
+            margin: 0px 20px;
+        }
+
+        #back-button {
+            margin-bottom: 10px;
+
+        }
+
+        #button-gallery {
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            width: 80%;
+            margin-left: 80px;
+            margin-bottom: 20px;
+
+        }
+
+        #form {
+            width: 80%;
+
+        }
+
+        h3 {
+            margin-bottom: 40px;
+            font-size: 1.5em;
+            font-weight: normal;
+            background-color: rgba(0, 0, 0, 0.4);
+            text-shadow: 2px 2px 5px black;
+            padding: 10px;
+            color: white;
+        }
+
+    }
