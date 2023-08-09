@@ -44,7 +44,7 @@
         font-size: 20px;
         text-decoration: underline 2px black;
         -webkit-text-decoration: underline black;
-        text-underline-offset: 1.5em;
+        text-underline-offset: 0.5em;
         margin-top: 0px;
     }
 
