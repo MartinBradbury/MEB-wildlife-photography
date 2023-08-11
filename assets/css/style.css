@@ -62,15 +62,6 @@
 
     /*Home page*/
 
-    .hero {
-        background-image: url('../images/lakes/lakes2.webp');
-        background-size: cover;
-        background-position: center;
-        width: 100wh;
-        height: 100vh;
-        display: flex;
-    }
-
     .center-content {
         width: 400px;
         display: flex;
@@ -271,6 +262,7 @@
     #imageme {
         content: url(../images/aboutme.webp);
         width: 100%;
+
 
     }
 
@@ -1172,4 +1164,23 @@
             color: white;
         }
 
+    }
+
+
+    /* testing code */
+
+    .section-hero {
+        width: 100%;
+        height: 70vh;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        background-image: url(../images/lakes/lakes11.webp);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
