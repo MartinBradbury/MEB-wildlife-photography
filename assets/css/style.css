@@ -524,7 +524,7 @@
 
     #button-gallery {
         margin-bottom: 100px;
-        margin-left: 90px;
+        margin-left: 0;
     }
 
     /* form */
@@ -816,7 +816,11 @@
         #back-button {
             margin-bottom: 10px;
 
+
         }
+
+
+
 
         #form {
             width: 100%;
@@ -1309,6 +1313,7 @@
 
         #button-gallery {
             margin-bottom: 10px;
+            margin-left: 130px;
         }
 
         .form-control {
