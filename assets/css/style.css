@@ -1046,8 +1046,8 @@
 
         .top ul li img {
             height: 80%;
-            width: 80%;
-            box-shadow: 10px 10px 10px grey;
+            width: 50%;
+
 
         }
 
@@ -1135,7 +1135,8 @@
         .top {
             align-items: center;
             justify-content: center;
-            margin: 0px 20px;
+            margin-top: 0px;
+            margin-left: 45px;
         }
 
         #back-button {
