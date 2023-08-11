@@ -1033,10 +1033,17 @@
 
         h2,
         h3 {
+            font-size: 3.5em;
+            padding: 10px;
+            margin-bottom: 40px;
+
+
+
+        }
+
+        h4 {
             font-size: 1.5em;
-
-
-
+            margin-bottom: 50px;
         }
 
         .hero {
@@ -1052,7 +1059,12 @@
 
 
         p {
-            font-size: 15px;
+            font-size: 20px;
+
+        }
+
+        .main-about {
+            background-color: rgba(143, 139, 139, 0.281)
         }
 
         .column {
@@ -1063,8 +1075,10 @@
         }
 
         #imageme {
-            width: 80%;
-            height: 80%;
+            width: 40%;
+            height: 40%;
+            padding: 20px;
+            margin: 50px;
             border-radius: 25%;
             box-shadow: 2px 2px 5px grey;
         }
@@ -1072,18 +1086,24 @@
         .main-about {
 
             width: 100%;
+            padding-bottom: 50px;
         }
 
         .main-about img {
-            width: 80%;
-            border-radius: 25%;
+            width: 50%;
+            padding: 20px;
+            margin: 40px;
+
             box-shadow: 2px 2px 5px grey;
         }
 
         .main-gallery {
 
-            height: 400px;
+            height: 700px;
             width: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
 
         }
 
