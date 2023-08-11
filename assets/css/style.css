@@ -220,6 +220,20 @@
         }
     }
 
+    .section-hero {
+        width: 100%;
+        height: 70vh;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        background-image: url(../images/Ullswaterhr.webp);
+        background-size: cover;
+
+    }
+
 
 
 
@@ -674,9 +688,14 @@
         h2,
         h3 {
             font-size: 1.5em;
+            margin-bottom: 20px;
 
 
 
+        }
+
+        h4 {
+            margin-bottom: 50px;
         }
 
         .hero {
@@ -708,11 +727,10 @@
 
         .main-gallery {
 
-            height: 400px;
+            height: 500px;
             width: 100%;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+
+
 
         }
 
@@ -784,9 +802,14 @@
         h2,
         h3 {
             font-size: 1.5em;
+            margin-bottom: 20px;
 
 
 
+        }
+
+        h4 {
+            margin-bottom: 50px;
         }
 
         .hero {
@@ -818,11 +841,9 @@
 
         .main-gallery {
 
-            height: 400px;
+            height: 500px;
             width: 100%;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+
 
         }
 
@@ -905,9 +926,14 @@
         h2,
         h3 {
             font-size: 1.5em;
+            margin-bottom: 20px;
 
 
 
+        }
+
+        h4 {
+            margin-bottom: 50px;
         }
 
         .hero {
@@ -939,11 +965,9 @@
 
         .main-gallery {
 
-            height: 400px;
+            height: 500px;
             width: 100%;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+
 
         }
 
@@ -1118,6 +1142,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
 
+
         }
 
         .main-gallery-text {
@@ -1206,23 +1231,25 @@
             color: white;
         }
 
-    }
 
 
-    /* testing code */
 
-    .section-hero {
-        width: 100%;
-        height: 70vh;
-        padding-top: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: white;
-        background-image: url(../images/Ullswaterhr.webp);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        /* testing code */
+
+        .section-hero {
+            width: 100%;
+            height: 70vh;
+            padding-top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            background-image: url(../images/Ullswaterhr.webp);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
     }
