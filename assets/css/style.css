@@ -524,7 +524,7 @@
 
     #button-gallery {
         margin-bottom: 100px;
-        margin: auto;
+        margin-left: 90px;
     }
 
     /* form */
@@ -714,7 +714,14 @@
             height: 70%;
             width: 70%;
             margin-left: 50px;
-            box-shadow: 10px 10px 10px grey;
+            margin-top: 20px;
+
+        }
+
+        #button-gallery {
+            margin-left: 160px;
+            float: left;
+
 
         }
 
@@ -1350,8 +1357,8 @@
         /* Gallery section */
         .top ul li img {
             height: 90%;
-            width: 50%;
-            box-shadow: 10px 10px 10px grey;
+            width: 30%;
+
 
         }
 
