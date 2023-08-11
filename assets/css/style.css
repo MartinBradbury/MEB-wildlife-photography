@@ -66,7 +66,6 @@
         background-image: url('../images/WIndermerehr.webp');
         background-size: cover;
         background-position: center;
-        width: 100wh;
         height: 100vh;
         display: flex;
     }
@@ -758,11 +757,7 @@
             font-size: 15px;
         }
 
-        .column {
-            margin-top: 5px 0px;
-            padding: 0;
 
-        }
 
         .main-about {
 
@@ -900,11 +895,7 @@
             font-size: 15px;
         }
 
-        .column {
-            margin-top: 5px 0px;
-            padding: 0;
 
-        }
 
         .main-about {
 
@@ -1057,11 +1048,7 @@
             font-size: 15px;
         }
 
-        .column {
-            margin-top: 5px 0px;
-            padding: 0;
 
-        }
 
         .main-about {
 
@@ -1214,12 +1201,7 @@
             font-size: 30px;
         }
 
-        .column {
-            display: flex;
-            margin-top: 5px 0px;
-            padding: 0;
 
-        }
 
         #imageme {
             width: 40%;
