@@ -39,7 +39,7 @@
 
     }
 
-    h4 {
+    h3 {
         font-family: 'Old Standard TT', 'sans-serif';
         font-size: 20px;
         text-decoration: underline 2px black;
@@ -79,7 +79,7 @@
     }
 
     h1,
-    h3 {
+    h4 {
         color: black;
         line-height: 1;
 
@@ -93,7 +93,7 @@
 
     }
 
-    h3 {
+    h4 {
         margin-bottom: 40px;
         font-size: 1.5em;
         font-weight: normal;
@@ -102,6 +102,8 @@
         padding: 10px;
         color: white;
     }
+
+
 
     .button {
         text-transform: uppercase;
@@ -251,6 +253,16 @@
 
     }
 
+    #home-text {
+        margin-bottom: 40px;
+        font-size: 1.5em;
+        font-weight: normal;
+        background-color: rgba(0, 0, 0, 0.4);
+        text-shadow: 2px 2px 5px black;
+        padding: 10px;
+        color: white;
+    }
+
 
 
 
@@ -309,6 +321,7 @@
     .logo {
         text-decoration: none;
         color: white;
+
     }
 
     .main-about {
@@ -706,7 +719,7 @@
         }
 
         h2,
-        h3 {
+        h4 {
             font-size: 1.5em;
             margin-bottom: 50px;
 
@@ -741,7 +754,7 @@
 
         }
 
-        h4 {
+        h3 {
             margin-bottom: 50px;
         }
 
@@ -851,7 +864,7 @@
         }
 
         h2,
-        h3 {
+        h4 {
             font-size: 1.5em;
             margin-bottom: 50px;
 
@@ -879,7 +892,7 @@
 
         }
 
-        h4 {
+        h3 {
             margin-bottom: 50px;
         }
 
@@ -1003,7 +1016,7 @@
         }
 
         h2,
-        h3 {
+        h4 {
             font-size: 1.5em;
             margin-bottom: 50px;
 
@@ -1011,7 +1024,7 @@
 
         }
 
-        h4 {
+        h3 {
             margin-bottom: 50px;
         }
 
@@ -1144,7 +1157,7 @@
 
         }
 
-        h3 {
+        h4 {
             margin-bottom: 40px;
             font-size: 1.5em;
             font-weight: normal;
@@ -1166,7 +1179,7 @@
         }
 
         h2,
-        h3 {
+        h4 {
             font-size: 3.5em;
             padding: 10px;
             margin-bottom: 40px;
@@ -1175,7 +1188,7 @@
 
         }
 
-        h4 {
+        h3 {
             font-size: 2.0em;
             margin-bottom: 50px;
         }
@@ -1326,7 +1339,7 @@
 
         }
 
-        h3 {
+        h4 {
             margin-bottom: 40px;
             font-size: 2.5em;
             font-weight: normal;
