@@ -117,7 +117,7 @@
 
     }
 
-    #home-text {
+    .home-text {
         background-color: rgba(0, 0, 0, 0.4);
         text-shadow: 2px 2px 5px black;
         padding: 10px;
@@ -303,6 +303,10 @@
 
     #logo {
         width: auto;
+
+    }
+
+    .logo {
         text-decoration: none;
         color: white;
     }
