@@ -63,7 +63,7 @@
     /*Home page*/
 
     .hero-start {
-        background-image: url('../images/lakes/lakes2.webp');
+        background-image: url('../images/WIndermerehr.webp');
         background-size: cover;
         background-position: center;
         width: 100wh;
@@ -273,6 +273,7 @@
         width: 100%;
 
 
+
     }
 
     #logo {
@@ -291,6 +292,8 @@
 
     .main-about img {
         width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .main-about p {
@@ -707,6 +710,9 @@
 
             height: 400px;
             width: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
 
         }
 
@@ -814,6 +820,9 @@
 
             height: 400px;
             width: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
 
         }
 
@@ -932,11 +941,15 @@
 
             height: 400px;
             width: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
 
         }
 
         .main-gallery-text {
             width: 350px;
+
 
 
         }
@@ -1207,7 +1220,7 @@
         align-items: center;
         text-align: center;
         color: white;
-        background-image: url(../images/lakes/lakes11.webp);
+        background-image: url(../images/Ullswaterhr.webp);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
