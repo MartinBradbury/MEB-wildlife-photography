@@ -128,6 +128,23 @@
         justify-content: center;
     }
 
+    .heading-primary {
+
+        background-color: rgba(0, 0, 0, 0.4);
+        text-shadow: 2px 2px 5px black;
+        color: white;
+
+    }
+
+    .hero-text-box {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 25%;
+    }
+
+
     .button:hover {
         background-color: rgba(3, 3, 3, 0.911);
         border-color: rgba(255, 255, 255, 0.7);
