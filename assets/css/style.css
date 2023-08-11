@@ -350,7 +350,7 @@
 
 
     .dales-box {
-        background: url('../images/dales/dales5.webp') no-repeat center center;
+        background: url('../images/dalesbox.webp') no-repeat center center;
         background-size: cover;
         display: flex;
         justify-content: space-evenly;
@@ -362,7 +362,7 @@
     }
 
     .peaks-box {
-        background: url('../images/peaks.webp') no-repeat center center;
+        background: url('../images/peaksbox.webp') no-repeat center center;
         background-size: cover;
         display: flex;
         justify-content: space-evenly;
@@ -373,7 +373,7 @@
     }
 
     .lincoln-box {
-        background: url('../images/winter.webp') no-repeat center center;
+        background: url('../images/lincolnbox.webp') no-repeat center center;
         background-size: cover;
         display: flex;
         justify-content: space-evenly;
@@ -1165,21 +1165,29 @@
 
 
         .dales-box {
-            height: 300px;
+            height: 600px;
+            width: 95%;
+            box-shadow: 6px 6px 12px black;
 
 
         }
 
         .peaks-box {
-            height: 300px;
+            height: 600px;
+            width: 95%;
+            box-shadow: 6px 6px 12px black;
         }
 
         .lincoln-box {
-            height: 300px;
+            height: 600px;
+            width: 95%;
+            box-shadow: 6px 6px 12px black;
         }
 
         .lakes-box {
-            height: 300px;
+            height: 600px;
+            width: 95%;
+            box-shadow: 6px 6px 12px black;
         }
 
         .top ul {
