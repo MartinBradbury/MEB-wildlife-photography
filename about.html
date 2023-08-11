@@ -21,13 +21,14 @@
     <header>
         <nav>
             <a href="/index.html" class="logo">MEB Photography</a>
-            <input type="checkbox" id="hamburger">
+            <input type="checkbox" aria-label="Hamburger munu" id="hamburger">
             <label for="hamburger"><i class="fa-solid fa-bars"></i></label>
             <ul>
-                <li><a href="/index.html" class="#" sans-serif="Navigate to the home screen">Home</a></li>
-                <li><a href="/about.html" class="active">About</a></li>
-                <li><a href="/photos.html" class="#" sans-serif="Navigate to the my photos section">Gallery</a></li>
-                <li><a href="/contact.html" class="#" sans-serif="Navigate to my contact page">Contact</a></li>
+                <li><a href="/index.html" class="#" aria-label="Return to my home page">Home</a></li>
+                <li><a href="/about.html" class="active" aria-label="Navigate to my about page">About</a></li>
+                <li><a href="/photos.html" class="#" aria-label="Navigate to my gallery page">Gallery</a></li>
+                <li><a href="/contact.html" class="#" aria-label="Remain on the contact page">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -108,18 +109,19 @@
 
     <div class="footer-basic">
         <footer>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
-                        class="icon ion-social-youtube"></i></a><a href="#"><i
-                        class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a>
+            <div class="social"><a href="#" aria-label="Navigate to my Instagram"><i
+                        class="icon ion-social-instagram"></i></a><a href="#" aria-label="Navigate to my Youtube"><i
+                        class="icon ion-social-youtube"></i></a><a href="#" aria-label="Navigate to my Twitter"><i
+                        class="icon ion-social-twitter"></i></a>
+                <a href="#" aria-label="Navigate to my Facebook"><i class="icon ion-social-facebook"></i></a>
             </div>
             <ul class="list-inline" id="footer-li">
-                <li class="list-inline-item"><a href="/index.html" sans-serif="Navigate to the home screen">Home</a>
+                <li class="list-inline-item"><a href="/index.html" aria-label="Return to my home page">Home</a></li>
+                <li class="list-inline-item"><a href="/about.html" aria-label="Navigate to my about page">About</a></li>
+                <li class="list-inline-item"><a href="/photos.html" aria-label="Navigate to my gallery page">Gallery</a>
                 </li>
-                <li class="list-inline-item"><a href="/about.html">About</a></li>
-                <li class="list-inline-item"><a href="/photos.html"
-                        sans-serif="Navigate to the my photos section">Gallery</a></li>
                 <li class="list-inline-item"><a href="/contact.html"
-                        sans-serif="Navigate to my contact page">Contacts</a></li>
+                        aria-label="Remain on the contact page">Contacts</a></li>
 
             </ul>
             <p class="copyright">MEB Photography © 2023</p>
