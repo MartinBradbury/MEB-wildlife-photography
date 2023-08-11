@@ -62,6 +62,15 @@
 
     /*Home page*/
 
+    .hero-start {
+        background-image: url('../images/lakes/lakes2.webp');
+        background-size: cover;
+        background-position: center;
+        width: 100wh;
+        height: 100vh;
+        display: flex;
+    }
+
     .center-content {
         width: 400px;
         display: flex;
