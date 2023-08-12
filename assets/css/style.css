@@ -1010,8 +1010,8 @@
     }
 
     /*Device=Tablets,
-    Ipads (landscape) ##Screen=B/w 768px to 1024px */
-    @media (min-width: 768px) and (max-width: 1024px) {
+    Ipads (landscape) ##Screen=B/w 768px to 1366px ti support Ipad Pro 12.9inch*/
+    @media (min-width: 768px) and (max-width: 1366px) {
 
         h1 {
             font-size: 2.5em;
@@ -1174,8 +1174,8 @@
 
     }
 
-    /*Device=Desktops ##Screen=1281px to higher resolution desktops*/
-    @media (min-width: 1025px) {
+    /*Device=Desktops ##Screen=1366px to higher resolution desktops*/
+    @media (min-width: 1366px) {
         h1 {
             font-size: 4.5em;
             margin-bottom: 5%;
