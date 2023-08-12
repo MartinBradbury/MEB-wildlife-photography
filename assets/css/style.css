@@ -1175,7 +1175,7 @@
     }
 
     /*Device=Desktops ##Screen=1366px to higher resolution desktops*/
-    @media (min-width: 1366px) {
+    @media (min-width: 1367px) {
         h1 {
             font-size: 4.5em;
             margin-bottom: 5%;
