@@ -1,6 +1,6 @@
 # MEB Wildlife Photography: Discover Nature
 
-![LOGO](assets/images/logo.webp)
+![LOGO](assets/images/logo.jpg)
 
 ## I would like to share my journey and passion of nature, landscapes and photography. The aim of this website is to be eye catching and enjoyable for people who have an interest in amateur photography, location and landscape photography and species photography. On this website you will get to experience some of the locations I have visited and photographed as well as some of the amazing organisms you can find accessible to that location. The website will also provide information about the location photographed and the species you may find there. This website is aimed at users who have a passion for nature photography both landscape and species and for those who like me, are armature photographers. Navigation through the website will be accomplished through a navigation bar which will remain constant at the top of the page in desktop view and shrink to a drop-down menu in mobile view. The footer of the website will remain constant on all pages and have links to all my social media. The website will be split into 4 main sections. “Home” will be eye catching and give a summary of what the user can expect to find on the website. “Photos” will display all the different galleries of photos I have taken. “About” will provide information about me and how I got into natural photography as well as the equipment I use. It will also contain information about upcoming projects. “Contact” will give the user the opportunity to contact me, post on a message board and provide useful links. I hope you will enjoy the content I have created and my passion for all things nature likes to offer.
 
@@ -62,7 +62,7 @@
 
 ### Typography
 
-*	The Roboto is the main font used throughout the whole website with Pacifico used to highlight certain headings. Sans Serif is used as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font so it is both attractive and appropriate. Pacifico helps with styling certain headings on the website.
+*	The montserrat is the main font used throughout the whole website for headings and navigation with Old Standard TT being used for descriptsions and content. Sans Serif is used as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font so it is both attractive and appropriate. Old Standard TT helps with styling descriptive sections of the website.
 
 ### Imagery
 
@@ -85,10 +85,25 @@
 
 
 
+## WIre-Frames V2
+
+*   Main Page:
+[Desctop](assets/wireframes/homev2d.png)    /   [Mobile](assets/wireframes/homev2m.png)
+*   Gallery Navigation:
+[Desktop](assets/wireframes/gallerynavv2d.png) /  [Mobile](assets/wireframes/gallerynavv2m.png)
+*	Galleries:
+[Desktop](assets/wireframes/galleryv2d.png) /  [Mobile](assets/wireframes/galleryv2m.png)
+*	About:
+[Desktop](assets/wireframes/aboutv2d.png) /    [Mobile](assets/wireframes/aboutv2m.png)
+*	Contact:
+[Desktop](assets/wireframes/contactv2d.png) /   [Mobile](assets/wireframes/contactv2m.png)
+
+
 ## Features
 
 *	Responsive design on all devices
 *	Interactive elements
+*   Clickable photos in the gallery section
 
 
 
@@ -127,10 +142,11 @@
 
 ## User Testing
 
-Add information here
+The website has been published on GitHub pages and I have shared it with friends and family. I have received feedback on the website and implemented slight changes to the design, layout and text.
 
 ## Lighthouse results:
-![MEB Wildlife Photography](assets/images/desktoplh1.jpg)
+![MEB Wildlife Photography Mobile](assets/image/lighthousem)
+![MEB Wildlife Photography Desktop](assets/images/lighthoused)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
