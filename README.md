@@ -1,4 +1,4 @@
-# MEB Wildlife Photography: Discover Nature
+# MEB Photography: Explore the Outooors
 
 ![LOGO](assets/images/logo.jpg)
 
