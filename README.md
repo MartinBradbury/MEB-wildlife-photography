@@ -1,5 +1,7 @@
 # MEB Photography: Explore the Outooors
 
+![MEB Photography: Explore the Outdoors](assets/images/resdesign.webp)
+
 ![LOGO](assets/images/logo.jpg)
 
 ## I would like to share my journey and passion of nature, landscapes and photography. The aim of this website is to be eye catching and enjoyable for people who have an interest in amateur photography, location and landscape photography and species photography. On this website you will get to experience some of the locations I have visited and photographed as well as some of the amazing organisms you can find accessible to that location. The website will also provide information about the location photographed and the species you may find there. This website is aimed at users who have a passion for nature photography both landscape and species and for those who like me, are armature photographers. Navigation through the website will be accomplished through a navigation bar which will remain constant at the top of the page in desktop view and shrink to a drop-down menu in mobile view. The footer of the website will remain constant on all pages and have links to all my social media. The website will be split into 4 main sections. “Home” will be eye catching and give a summary of what the user can expect to find on the website. “Photos” will display all the different galleries of photos I have taken. “About” will provide information about me and how I got into natural photography as well as the equipment I use. It will also contain information about upcoming projects. “Contact” will give the user the opportunity to contact me, post on a message board and provide useful links. I hope you will enjoy the content I have created and my passion for all things nature likes to offer.
@@ -145,8 +147,8 @@
 The website has been published on GitHub pages and I have shared it with friends and family. I have received feedback on the website and implemented slight changes to the design, layout and text.
 
 ## Lighthouse results:
-![MEB Wildlife Photography Mobile](assets/image/lighthousem)
-![MEB Wildlife Photography Desktop](assets/images/lighthoused)
+![MEB Wildlife Photography Mobile](assets/images/lighthousem.png)
+![MEB Wildlife Photography Desktop](assets/images/lighthoused.png)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
