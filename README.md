@@ -162,15 +162,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * [W3schools](https://www.w3schools.com/) - one of the best library of explanation and tutorials.
 * [Codeinstitute](https://codeinstitute.net/) - Thank you to Code Institute and the Love Running Project it supporting me with the code for this project.
 * [Learn Flexbox CSS in 8 Minutes](https://www.youtube.com/watch?v=phWxA89Dy94&t=48s) - Big thankyou to 'Slaying the Dragon' tutorial video on youtube showing how to use Flex box to position items in css.
+* [Dev Pen CSS Gallery and Burger menu examples](https://devsnap.me/) - Thankyou to contributors on the Dev Pen CSS gallery examples and burger menu.
 
 
 
 
 
-# To Do
+# To Do / Wanted to do
 
 *Improve performance of the Website but adjusting and editing photos to decrease load time. 
-*Enable larger preview of each image.
-*Add a blog posting board
-*Add a calander feature to show where and when I will be taking photos
+*Enable larger preview of each image to show all the images in full quality.
+*Use Javascript to make the gallery section more visually appealing when selecting images to view full screen.
+*Add a blog posting board for users to share thoughts and comments rather than directly to me using the contact form.
+*Add a calander feature to show where and when I will be taking photos.
 *Adapt the site into a hiking / photography website.
+
