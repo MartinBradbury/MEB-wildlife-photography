@@ -1130,8 +1130,7 @@
         .top {
             align-items: center;
             justify-content: center;
-            margin-top: 0px;
-            margin-left: 45px;
+            margin: 0px 60px;
         }
 
         #back-button {
