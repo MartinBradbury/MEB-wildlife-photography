@@ -431,9 +431,11 @@
 
     .container {
         width: 100%;
-        height: 100%;
+        height: 120%;
         background-color: black;
     }
+
+
 
     .trans {
         transition: all 1s ease;
@@ -556,7 +558,13 @@
     #button-gallery {
         margin-bottom: 100px;
         margin-left: 0;
+        margin-top: 0px;
     }
+
+    .buttonbg {
+        height: 70px;
+    }
+
 
     /* form */
 
