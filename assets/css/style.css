@@ -328,48 +328,37 @@
         flex-direction: column;
     }
 
-    .dales-box {
+    .box-cover {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 500px;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .dales {
         background: url('../images/dalesbox.webp') no-repeat center center;
         background-size: cover;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 500px;
-        width: 100%;
-        margin: 20px 0;
+
     }
 
-    .peaks-box {
+    .peaks {
         background: url('../images/peaksbox.webp') no-repeat center center;
         background-size: cover;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 500px;
-        width: 100%;
-        margin: 20px 0;
+
     }
 
-    .lincoln-box {
+    .lincoln {
         background: url('../images/lincolnbox.webp') no-repeat center center;
         background-size: cover;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 500px;
-        width: 100%;
-        margin: 20px 0;
+
     }
 
-    .lakes-box {
+    .lakes {
         background: url('../images/Lakescover.webp') no-repeat center center;
         background-size: cover;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 500px;
-        width: 100%;
-        margin: 20px 0;
+
     }
 
     /* Gallery Section */
@@ -725,19 +714,7 @@
             height: 2em;
         }
 
-        .dales-box {
-            height: 300px;
-        }
-
-        .peaks-box {
-            height: 300px;
-        }
-
-        .lincoln-box {
-            height: 300px;
-        }
-
-        .lakes-box {
+        .box-cover {
             height: 300px;
         }
 
@@ -836,19 +813,7 @@
             height: 2em;
         }
 
-        .dales-box {
-            height: 300px;
-        }
-
-        .peaks-box {
-            height: 300px;
-        }
-
-        .lincoln-box {
-            height: 300px;
-        }
-
-        .lakes-box {
+        .box-cover {
             height: 300px;
         }
 
@@ -968,19 +933,7 @@
             height: 2em;
         }
 
-        .dales-box {
-            height: 300px;
-        }
-
-        .peaks-box {
-            height: 300px;
-        }
-
-        .lincoln-box {
-            height: 300px;
-        }
-
-        .lakes-box {
+        .box-cover {
             height: 300px;
         }
 
@@ -1119,25 +1072,7 @@
             height: 2em;
         }
 
-        .dales-box {
-            height: 600px;
-            width: 95%;
-            box-shadow: 14px 14px 8px grey;
-        }
-
-        .peaks-box {
-            height: 600px;
-            width: 95%;
-            box-shadow: 14px 14px 8px grey;
-        }
-
-        .lincoln-box {
-            height: 600px;
-            width: 95%;
-            box-shadow: 14px 14px 8px grey;
-        }
-
-        .lakes-box {
+        .box-cover {
             height: 600px;
             width: 95%;
             box-shadow: 14px 14px 8px grey;
