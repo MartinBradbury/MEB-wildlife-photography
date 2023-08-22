@@ -506,7 +506,7 @@
         text-align: center;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.75);
+        background-color: rgba(0, 0, 0, 1);
         z-index: 999;
         opacity: 0;
         pointer-events: none;
@@ -537,6 +537,7 @@
         -ms-transition: all 1.2s ease;
         -o-transition: all 1.2s ease;
         -webkit-transition: all 1.2s ease;
+
     }
 
     .lightbox:target img {
@@ -547,6 +548,7 @@
         -ms-transform: translateY(-50%);
         -o-transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
+        box-shadow: 8px 8px 8px grey;
     }
 
     /* Box button and text styling*/
