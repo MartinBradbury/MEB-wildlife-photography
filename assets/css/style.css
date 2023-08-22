@@ -6,37 +6,27 @@
         text-align: center;
         padding: 0;
         margin: 0;
-
-
     }
 
     body {
         font-family: 'Old Standard TT', 'sans-serif';
         font-weight: 300;
-
     }
-
-
 
     p {
         font-family: 'Old Standard TT', 'sans-serif';
         font-size: 30px;
         letter-spacing: 2px;
         margin: 10px;
-
-
     }
 
     li {
         font-size: 15px;
-
-
     }
 
     h1,
     h2 {
         font-family: 'Montserrat', 'sans-serif';
-
     }
 
     h3 {
@@ -48,17 +38,11 @@
         margin-top: 0px;
     }
 
-
-
     html,
     body {
         margin: 0;
         height: 100%;
-
     }
-
-
-
 
     /*Home page*/
 
@@ -82,7 +66,6 @@
     h4 {
         color: black;
         line-height: 1;
-
     }
 
     h1 {
@@ -90,7 +73,6 @@
         font-size: 3em;
         margin-bottom: 0;
         text-align: center;
-
     }
 
     h4 {
@@ -103,8 +85,6 @@
         color: white;
     }
 
-
-
     .button {
         text-transform: uppercase;
         color: white;
@@ -115,8 +95,6 @@
         border-radius: 25%;
         background-color: rgba(0, 0, 0, 0.4);
         margin-top: 50px;
-
-
     }
 
     .home-text {
@@ -134,7 +112,6 @@
         background-color: rgba(0, 0, 0, 0.4);
         text-shadow: 2px 2px 5px black;
         color: white;
-
     }
 
     .hero-text-box {
@@ -161,17 +138,13 @@
         justify-content: space-between;
         background-color: black;
         padding: 1em;
-
     }
 
     nav a {
         text-decoration: none;
         text-transform: uppercase;
         color: white;
-
     }
-
-
 
     input[type=checkbox] {
         appearance: none;
@@ -202,7 +175,6 @@
         border-radius: 20%;
         color: black;
         text-decoration: none;
-
     }
 
     .active {
@@ -250,7 +222,6 @@
         color: white;
         background-image: url(../images/Ullswaterhr.webp);
         background-size: cover;
-
     }
 
     #home-text {
@@ -263,9 +234,6 @@
         color: white;
     }
 
-
-
-
     /* About Main Section */
 
     #welcome-text {
@@ -277,13 +245,10 @@
         text-underline-offset: 0.3em;
     }
 
-
     .row {
         display: flex;
         flex-direction: row;
         width: 100%;
-
-
     }
 
     .column {
@@ -293,33 +258,25 @@
         justify-content: space-between;
         flex-basis: 100%;
         flex: 1;
-
-
     }
 
     .main-image {
 
         width: 100%;
-
     }
 
     #imageme {
         content: url(../images/aboutme.webp);
         width: 100%;
-
-
-
     }
 
     #logo {
         width: auto;
-
     }
 
     .logo {
         text-decoration: none;
         color: white;
-
     }
 
     .main-about {
@@ -329,7 +286,6 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-
     }
 
     .main-about img {
@@ -349,7 +305,6 @@
         width: 100%;
         height: 100vh;
         display: flex;
-
     }
 
     #gallery-link {
@@ -371,8 +326,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
-
     }
 
     .dales-box {
@@ -384,7 +337,6 @@
         height: 500px;
         width: 100%;
         margin: 20px 0;
-
     }
 
     .peaks-box {
@@ -418,7 +370,6 @@
         height: 500px;
         width: 100%;
         margin: 20px 0;
-
     }
 
     /* Gallery Section */
@@ -428,14 +379,11 @@
         color: white;
     }
 
-
     .container {
         width: 100%;
         height: 120%;
         background-color: black;
     }
-
-
 
     .trans {
         transition: all 1s ease;
@@ -539,7 +487,6 @@
         -ms-transition: all 1.2s ease;
         -o-transition: all 1.2s ease;
         -webkit-transition: all 1.2s ease;
-
     }
 
     .lightbox:target img {
@@ -565,7 +512,6 @@
         height: 70px;
     }
 
-
     /* form */
 
     #row {
@@ -573,18 +519,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-
-
     }
 
     #form {
         background: url('../images/formbg.webp') no-repeat center center;
         padding-top: 50px;
         padding-bottom: 50px;
-
     }
-
 
     .form-label {
 
@@ -594,10 +535,7 @@
         line-height: 50px;
         font-weight: 50;
         display: show;
-
     }
-
-
 
     .form-control {
         display: flex;
@@ -616,7 +554,6 @@
 
     #message {
         height: 150px;
-
     }
 
     .text-input {
@@ -626,7 +563,6 @@
 
     .contact-form {
         max-height: 400px;
-
     }
 
     /* footer */
@@ -644,12 +580,10 @@
         font-size: 18px;
         line-height: 1.6;
         margin-bottom: 0;
-
     }
 
     .footer-basic #footer-li {
         padding: 0 10px;
-
     }
 
     .footer-basic #footer-li a {
@@ -675,7 +609,6 @@
         align-items: center;
         justify-content: center;
         font-family: Montserrat, sans-serif;
-
     }
 
     .footer-basic .social>a {
@@ -708,7 +641,6 @@
         font-family: Montserrat, sans-serif;
     }
 
-
     /* MEDIA */
 
     @media (min-width: 320px) and (max-width: 480px) {
@@ -717,16 +649,12 @@
             font-size: 2em;
             margin-bottom: 5%;
             margin-top: 20px;
-
         }
 
         h2,
         h4 {
             font-size: 1.5em;
             margin-bottom: 50px;
-
-
-
         }
 
         h2 {
@@ -747,14 +675,11 @@
             width: 70%;
             margin-left: 25%;
             margin-top: 20px;
-
         }
 
         #button-gallery {
             margin-left: 40%;
             float: left;
-
-
         }
 
         h3 {
@@ -768,7 +693,6 @@
         .row {
             flex-direction: column;
             margin: 0;
-
         }
 
 
@@ -780,7 +704,6 @@
 
 
         .main-about {
-
             width: 100%;
         }
 
@@ -788,33 +711,22 @@
 
             height: 500px;
             width: 100%;
-
-
-
         }
 
         .main-gallery-text {
             width: 100%;
-
-
         }
-
-
 
         .top-nav {
             height: 6.45vh;
-
         }
 
         .toggler:checked~.menu li {
             height: 2em;
         }
 
-
         .dales-box {
             height: 300px;
-
-
         }
 
         .peaks-box {
@@ -832,7 +744,6 @@
         .top ul li {
             width: 50%;
             margin-bottom: 0px;
-
         }
 
         .top {
@@ -843,8 +754,6 @@
 
         #back-button {
             margin-bottom: 10px;
-
-
         }
 
         #form {
@@ -863,12 +772,10 @@
             margin-top: 20px;
         }
 
-
         h2,
         h4 {
             font-size: 1.5em;
             margin-bottom: 50px;
-
         }
 
         h2 {
@@ -887,8 +794,6 @@
             height: 90%;
             width: 60%;
             margin-left: 0;
-
-
         }
 
         h3 {
@@ -902,19 +807,13 @@
         .row {
             flex-direction: column;
             margin: 0;
-
         }
-
-
 
         p {
             font-size: 15px;
         }
 
-
-
         .main-about {
-
             width: 100%;
         }
 
@@ -922,17 +821,11 @@
 
             height: 500px;
             width: 100%;
-
-
         }
 
         .main-gallery-text {
             width: 350px;
-
-
         }
-
-
 
         .top-nav {
             height: 6.45vh;
@@ -943,11 +836,8 @@
             height: 2em;
         }
 
-
         .dales-box {
             height: 300px;
-
-
         }
 
         .peaks-box {
@@ -971,7 +861,6 @@
         .top ul li {
             width: 50%;
             margin-bottom: 0px;
-
         }
 
         .top {
@@ -982,7 +871,6 @@
 
         #back-button {
             margin-bottom: 10px;
-
         }
 
         #button-gallery {
@@ -993,18 +881,15 @@
             width: 80%;
             margin-left: 10%;
             margin-bottom: 20px;
-
         }
 
         #form {
             width: 100%;
-
         }
 
         .form-label {
             display: block;
         }
-
 
     }
 
@@ -1022,9 +907,6 @@
         h4 {
             font-size: 1.5em;
             margin-bottom: 50px;
-
-
-
         }
 
         h3 {
@@ -1034,7 +916,6 @@
         h2 {
             margin-top: 50px;
         }
-
 
         /* Gallery section */
 
@@ -1048,8 +929,6 @@
         .top ul li img {
             height: 80%;
             width: 50%;
-
-
         }
 
         .hero {
@@ -1059,16 +938,11 @@
         .row {
             flex-direction: column;
             margin: 0;
-
         }
-
-
 
         p {
             font-size: 15px;
         }
-
-
 
         .main-about {
 
@@ -1079,34 +953,23 @@
 
             height: 500px;
             width: 100%;
-
-
         }
 
         .main-gallery-text {
             width: 350px;
-
-
-
         }
-
-
 
         /* Height of nav drop down */
         .top-nav {
             height: 5.45vh;
-
         }
 
         .toggler:checked~.menu li {
             height: 2em;
         }
 
-
         .dales-box {
             height: 300px;
-
-
         }
 
         .peaks-box {
@@ -1130,7 +993,6 @@
         .top ul li {
             width: 50%;
             margin-bottom: 0px;
-
         }
 
         .top {
@@ -1141,7 +1003,6 @@
 
         #back-button {
             margin-bottom: 10px;
-
         }
 
         #button-gallery {
@@ -1152,12 +1013,10 @@
             width: 80%;
             margin-left: 10%;
             margin-bottom: 20px;
-
         }
 
         #form {
             width: 100%;
-
         }
 
         .form-label {
@@ -1182,7 +1041,6 @@
             font-size: 4.5em;
             margin-bottom: 5%;
             margin-top: 20px;
-
         }
 
         h2,
@@ -1190,9 +1048,6 @@
             font-size: 3.5em;
             padding: 10px;
             margin-bottom: 40px;
-
-
-
         }
 
         h3 {
@@ -1207,14 +1062,10 @@
         .row {
             flex-direction: column;
             margin: 0;
-
         }
-
-
 
         p {
             font-size: 30px;
-
         }
 
         .main-about {
@@ -1224,8 +1075,6 @@
         .main-about p {
             font-size: 30px;
         }
-
-
 
         #imageme {
             width: 40%;
@@ -1245,8 +1094,6 @@
             width: 50%;
             padding: 0px;
             margin: 40px;
-
-
             box-shadow: 14px 14px 8px grey;
         }
 
@@ -1257,35 +1104,25 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-attachment: fixed;
-
-
         }
 
         .main-gallery-text {
             width: 350px;
-
-
         }
-
-
 
         /* Height of nav drop down */
         .top-nav {
             height: 5.45vh;
-
         }
 
         .toggler:checked~.menu li {
             height: 2em;
         }
 
-
         .dales-box {
             height: 600px;
             width: 95%;
             box-shadow: 14px 14px 8px grey;
-
-
         }
 
         .peaks-box {
@@ -1315,7 +1152,6 @@
         .top ul li {
             width: 50%;
             margin-bottom: 0px;
-
         }
 
         .top {
@@ -1326,7 +1162,6 @@
 
         #back-button {
             margin-bottom: 10px;
-
         }
 
         #button-gallery {
@@ -1340,17 +1175,14 @@
             margin-bottom: 20px;
             height: 50px;
             font-size: 20px;
-
         }
 
         #form {
             width: 100%;
-
         }
 
         .form-label {
             display: block;
-
         }
 
         h4 {
@@ -1384,10 +1216,6 @@
         .top ul li img {
             height: 90%;
             width: 30%;
-
-
         }
-
-
 
     }
