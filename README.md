@@ -1,4 +1,4 @@
-# MEB Photography: Explore the Outooors
+# MEB Photography: Explore the Outdoors
 
 ![MEB Photography: Explore the Outdoors](assets/images/resdesign.webp)
 
@@ -87,10 +87,10 @@
 
 
 
-## WIre-Frames V2
+## Wire-Frames V2
 
 *   Main Page:
-[Desctop](assets/wireframes/homev2d.png)    /   [Mobile](assets/wireframes/homev2m.png)
+[Desktop](assets/wireframes/homev2d.png)    /   [Mobile](assets/wireframes/homev2m.png)
 *   Gallery Navigation:
 [Desktop](assets/wireframes/gallerynavv2d.png) /  [Mobile](assets/wireframes/gallerynavv2m.png)
 *	Galleries:
@@ -104,7 +104,7 @@
 ## Features
 
 *	Responsive design on all devices
-*	Interactive elements in the gallery setion of the page where the user is able to click on an image thumbnail an get a larger version
+*	Interactive elements in the gallery section of the page where the user is able to click on an image thumbnail an get a larger version
 *   Interactive form to complete in the contact section
 *   hamburger menu to help navigate the site on smaller screens
 
@@ -127,7 +127,7 @@
    *Google Fonts was used to import different font styles to be used in styling of the website.
   
 3. [Git](https://git-scm.com/)
-   *Git was used to store the projects code after being phushed from Git.
+   *Git was used to store the projects code after being pushed from Git.
 
 4. [GitHub](https://github.com/)
    *GitHub is used to store the projects code after being pushed from Git.
@@ -167,9 +167,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 * [W3schools](https://www.w3schools.com/) - one of the best library of explanation and tutorials.
 * [Codeinstitute](https://codeinstitute.net/) - Thank you to Code Institute and the Love Running Project it supporting me with the code for this project.
-* [Learn Flexbox CSS in 8 Minutes](https://www.youtube.com/watch?v=phWxA89Dy94&t=48s) - Big thankyou to 'Slaying the Dragon' tutorial video on youtube showing how to use Flex box to position items in css.
-* [Dev Pen CSS Gallery and Burger menu examples](https://devsnap.me/) - Thankyou to contributors on the Dev Pen CSS gallerys. These examples gave me ideas how to make my own gallery section more interactive and responsive to the user. 
-* [Mentor] - A big thank you to my Mentor Narender for supporting me through my project and giving advice on best UX design and challenging me with making the website incorportate more complex gallery elements. 
+* [Learn Flexbox CSS in 8 Minutes](https://www.youtube.com/watch?v=phWxA89Dy94&t=48s) - Big thankyou to 'Slaying the Dragon' tutorial video on Youtube showing how to use Flex box to position items in CSS.
+* [Dev Pen CSS Gallery and Burger menu examples](https://devsnap.me/) - Thankyou to contributors on the Dev Pen CSS galleries. These examples gave me ideas how to make my own gallery section more interactive and responsive to the user. 
+* [Mentor] - A big thank you to my Mentor Narender for supporting me through my project and giving advice on best UX design and challenging me with making the website incorporate more complex gallery elements. 
 
 
 
@@ -177,14 +177,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 # Wanted to do / improvements
 
-* Encorporate parallax scrolling on mobile devices. This feature is only functioning on desktop devices on my website.
+* Incorporate parallax scrolling on mobile devices. This feature is only functioning on desktop devices on my website.
 * Structured the gallery page differently and used div elements with the images being the background rather than li elements. This would have enabled more freedom in positioning and sizing each element for each device. 
-* Encorporate lazy loading to ensure performance remains high on all devices and load time is not too great when more images are added. 
+* Incorporate lazy loading to ensure performance remains high on all devices and load time is not too great when more images are added. 
 * Create a 404 page so if users navigate incorrectly, they will get directed to the home page automatically. 
 * Create a thankyou page for completing the contact form with a back button to return to the main site.
 * Improve performance on pages that have a lower score, namely the about and contact page. 
 * Incorporate Java script into the gallery section to make it more interactive and display the images with more style. 
 * Add a blog posting board for users to share thoughts and comments rather than directly to me using the contact form.
-* Add a calander feature to show where and when I will be taking photos.
+* Add a calender feature to show where and when I will be taking photos.
 * Adapt the site into a hiking / photography website.
 
