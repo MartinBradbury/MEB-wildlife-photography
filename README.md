@@ -4,7 +4,7 @@
 
 ![LOGO](assets/images/logo.jpg)
 
-## I would like to share my journey and passion of nature, landscapes and photography. The aim of this website is to be eye catching and enjoyable for people who have an interest in amateur photography, location and landscape photography and species photography. On this website you will get to experience some of the locations I have visited and photographed as well as some of the amazing organisms you can find accessible to that location. The website will also provide information about the location photographed and the species you may find there. This website is aimed at users who have a passion for nature photography both landscape and species and for those who like me, are armature photographers. Navigation through the website will be accomplished through a navigation bar which will remain constant at the top of the page in desktop view and shrink to a drop-down menu in mobile view. The footer of the website will remain constant on all pages and have links to all my social media. The website will be split into 4 main sections. “Home” will be eye catching and give a summary of what the user can expect to find on the website. “Photos” will display all the different galleries of photos I have taken. “About” will provide information about me and how I got into natural photography as well as the equipment I use. It will also contain information about upcoming projects. “Contact” will give the user the opportunity to contact me, post on a message board and provide useful links. I hope you will enjoy the content I have created and my passion for all things nature likes to offer.
+### I would like to share my journey and passion of nature, landscapes and photography. The aim of this website is to be eye catching and enjoyable for people who have an interest in amateur photography, location and landscape photography and species photography. On this website you will get to experience some of the locations I have visited and photographed as well as some of the amazing organisms you can find accessible to that location. The website will also provide information about the location photographed and the species you may find there. This website is aimed at users who have a passion for nature photography both landscape and species and for those who like me, are armature photographers. Navigation through the website will be accomplished through a navigation bar which will remain constant at the top of the page in desktop view and shrink to a drop-down menu in mobile view. The footer of the website will remain constant on all pages and have links to all my social media. The website will be split into 4 main sections. “Home” will be eye catching and give a summary of what the user can expect to find on the website. “Photos” will display all the different galleries of photos I have taken. “About” will provide information about me and how I got into natural photography as well as the equipment I use. It will also contain information about upcoming projects. “Contact” will give the user the opportunity to contact me, post on a message board and provide useful links. I hope you will enjoy the content I have created and my passion for all things nature likes to offer.
 
 
 
@@ -104,8 +104,10 @@
 ## Features
 
 *	Responsive design on all devices
-*	Interactive elements
-*   Clickable photos in the gallery section
+*	Interactive elements in the gallery setion of the page where the user is able to click on an image thumbnail an get a larger version
+*   Interactive form to complete in the contact section
+*   hamburger menu to help navigate the site on smaller screens
+
 
 
 
@@ -144,10 +146,12 @@
 
 ## User Testing
 
-The website has been published on GitHub pages and I have shared it with friends and family. I have received feedback on the website and implemented slight changes to the design, layout and text.
+The website has been published on GitHub pages and I have shared it with friends, family and peer-code-review on slack. Following feedback from these sources and from my mentor I have implemented slight changes to the design, layout and responsiveness of the website.
 
 ## Lighthouse results:
+* Mobile
 ![MEB Wildlife Photography Mobile](assets/images/lighthousem.png)
+* Desktop
 ![MEB Wildlife Photography Desktop](assets/images/lighthoused.png)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -164,17 +168,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * [W3schools](https://www.w3schools.com/) - one of the best library of explanation and tutorials.
 * [Codeinstitute](https://codeinstitute.net/) - Thank you to Code Institute and the Love Running Project it supporting me with the code for this project.
 * [Learn Flexbox CSS in 8 Minutes](https://www.youtube.com/watch?v=phWxA89Dy94&t=48s) - Big thankyou to 'Slaying the Dragon' tutorial video on youtube showing how to use Flex box to position items in css.
-* [Dev Pen CSS Gallery and Burger menu examples](https://devsnap.me/) - Thankyou to contributors on the Dev Pen CSS gallery examples and burger menu.
+* [Dev Pen CSS Gallery and Burger menu examples](https://devsnap.me/) - Thankyou to contributors on the Dev Pen CSS gallerys. These examples gave me ideas how to make my own gallery section more interactive and responsive to the user. 
+* [Mentor] - A big thank you to my Mentor Narender for supporting me through my project and giving advice on best UX design and challenging me with making the website incorportate more complex gallery elements. 
 
 
 
 
 
-# To Do / Wanted to do
+# Wanted to do / improvements
 
-* Improve performance of the Website but adjusting and editing photos to decrease load time. 
-* Enable larger preview of each image to show all the images in full quality.
-* Use Javascript to make the gallery section more visually appealing when selecting images to view full screen.
+* Encorporate parallax scrolling on mobile devices. This feature is only functioning on desktop devices on my website.
+* Structured the gallery page differently and used div elements with the images being the background rather than li elements. This would have enabled more freedom in positioning and sizing each element for each device. 
+* Encorporate lazy loading to ensure performance remains high on all devices and load time is not too great when more images are added. 
+* Create a 404 page so if users navigate incorrectly, they will get directed to the home page automatically. 
+* Create a thankyou page for completing the contact form with a back button to return to the main site.
+* Improve performance on pages that have a lower score, namely the about and contact page. 
+* Incorporate Java script into the gallery section to make it more interactive and display the images with more style. 
 * Add a blog posting board for users to share thoughts and comments rather than directly to me using the contact form.
 * Add a calander feature to show where and when I will be taking photos.
 * Adapt the site into a hiking / photography website.
