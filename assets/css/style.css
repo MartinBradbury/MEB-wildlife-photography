@@ -686,6 +686,11 @@
             float: left;
         }
 
+        .image-info {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
         h3 {
             margin-bottom: 50px;
         }
@@ -699,13 +704,9 @@
             margin: 0;
         }
 
-
-
         p {
             font-size: 15px;
         }
-
-
 
         .main-about {
             width: 100%;
@@ -790,6 +791,11 @@
 
         h3 {
             margin-bottom: 50px;
+        }
+
+        .image-info {
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
         .hero {
@@ -911,6 +917,11 @@
             width: 50%;
         }
 
+        .image-info {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
         .hero {
             width: 100%;
         }
@@ -1021,6 +1032,11 @@
         h3 {
             font-size: 2.0em;
             margin-bottom: 50px;
+        }
+
+        .image-info {
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
         .hero {
