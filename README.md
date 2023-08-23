@@ -147,6 +147,8 @@ I would like to share my journey and passion of nature, landscapes and photograp
 The website has been published on GitHub pages and I have shared it with friends, family and peer-code-review on slack. Following feedback from these sources and from my mentor I have implemented slight changes to the design, layout and responsiveness of the website.
 
 ## Lighthouse results:
+I have used the developer tools in google chrome to test each page in my website for performance, accessibility, best practise and SEO. Below is an example of the homepage.
+ 
 * Mobile
 ![MEB Wildlife Photography Mobile](assets/images/lighthousem.png)
 * Desktop
