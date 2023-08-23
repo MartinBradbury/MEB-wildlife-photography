@@ -1,6 +1,6 @@
 # MEB Photography: Explore the Outdoors
 
-![MEB Photography: Explore the Outdoors](assets/images/resdesign.webp)
+![MEB Photography: Explore the Outdoors](assets/images/resdesign.png)
 
 I would like to share my journey and passion of nature, landscapes and photography. The aim of this website is to be eye catching and enjoyable for people who have an interest in amateur photography, location and landscape photography and species photography. On this website you will get to experience some of the locations I have visited and photographed as well as some of the amazing organisms you can find accessible to that location. The website will also provide information about the location photographed and the species you may find there. This website is aimed at users who have a passion for nature photography both landscape and species and for those who like me, are armature photographers. Navigation through the website will be accomplished through a navigation bar which will remain constant at the top of the page in desktop view and shrink to a drop-down menu in mobile view. The footer of the website will remain constant on all pages and have links to all my social media. The website will be split into 4 main sections. “Home” will be eye catching and give a summary of what the user can expect to find on the website. “Photos” will display all the different galleries of photos I have taken. “About” will provide information about me and how I got into natural photography as well as the equipment I use. It will also contain information about upcoming projects. “Contact” will give the user the opportunity to contact me, post on a message board and provide useful links. I hope you will enjoy the content I have created and my passion for all things nature likes to offer.
 
@@ -101,11 +101,39 @@ I would like to share my journey and passion of nature, landscapes and photograp
 
 ## Features
 
-*	Responsive design on all devices
-*	Interactive elements in the gallery section of the page where the user is able to click on an image thumbnail an get a larger version
-*   Interactive form to complete in the contact section
-*   Hamburger menu to help navigate the site on smaller screens
+###	Responsive design on all devices
 
+*  Responsive Nav bar that can be clicked to navigate to each page on the website
+
+    ![Desktop](assets/images/navdesk.png)
+    ![Mobile](assets/images/navmob.png)
+
+    
+    
+*   Hamburger menu to help navigate the site on smaller screens
+  
+    ![Hamburger](assets/images/navham.png)
+    
+    
+
+*   Interactive footer than enables users to click and navigate to social media sites
+
+    ![Footer](assets/images/footer.png)
+
+    
+    
+    
+*	Interactive elements in the gallery section of the page where the user is able to click on an image thumbnail an get a larger version
+
+    ![Gallery](assets/images/galleryclick.png)
+
+    ![Gallery](assets/images/galleryclicked.png)
+
+    
+
+*   Interactive form to complete in the contact section
+
+    ![Form](assets/images/form.png)
 
 
 
@@ -144,7 +172,7 @@ I would like to share my journey and passion of nature, landscapes and photograp
 
 ## User Testing
 
-The website has been published on GitHub pages and I have shared it with friends, family and peer-code-review on slack. Following feedback from these sources and from my mentor I have implemented slight changes to the design, layout and responsiveness of the website.
+The website has been published on GitHub pages and I have shared it with friends, family and peer-code-review on slack. Following feedback from these sources and from my mentor I have implemented slight changes to the design, layout and responsiveness of the website. The website is responsive for different screen sizes and all the content is visible on all devices tested.
 
 ## Lighthouse results:
 I have used the developer tools in google chrome to test each page in my website for performance, accessibility, best practise and SEO. Below is an example of the homepage.
@@ -159,6 +187,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * [W3C Markup Validator](https://validator.w3.org/#validate_by_input+with_options)
 
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+
+
+
+
+# Deployment
+
+* The website has been deployed to GitHub pages. 
+* The live link can be found here:  https://martinbradbury.github.io/MEB-wildlife-photography/index.html
 
 
 
