@@ -189,6 +189,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 
+## Bugs
+
+* The font style Old Standard TT is not available on IOS mobile and tablet devices. The default - sans serif is used instead.
 
 
 
