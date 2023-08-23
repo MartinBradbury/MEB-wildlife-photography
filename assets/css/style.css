@@ -530,12 +530,13 @@
 
     .form-label {
 
-        font-family: Roboto, sans-serif;
-        font-size: 20px;
+        font-family: Montserrat, sans-serif;
+        font-size: 25px;
         padding: 4px;
         line-height: 50px;
-        font-weight: 50;
-        display: show;
+        font-weight: 900;
+        color: black;
+
     }
 
     .form-control {
@@ -559,7 +560,9 @@
 
     .text-input {
         font-size: 100%;
-        font-family: Roboto, sans-serif;
+        font-family: Montserrat, sans-serif;
+        color: black;
+        font-weight: 900;
     }
 
     .contact-form {
