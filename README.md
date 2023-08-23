@@ -29,7 +29,7 @@
 *	As an individual who has a passion for landscape/wildlife photography, I want to know what the website is about and see clear navigation. 
 *	I want to be able to see and use the navigation bar to easily move to the different sections on the website.
 *	I want to be able to see the galleries and where these pictures were taken.
-*	I want to see information regarding the locations and species photographed.
+*	I want to see information regarding the locations photographed.
 *	I want to know what equipment has been used to take these photographs.
 *	I want to be able to connect to the owners social media.
 *	I want to be able to see comments others have left.
@@ -64,11 +64,11 @@
 
 ### Typography
 
-*	The montserrat is the main font used throughout the whole website for headings and navigation with Old Standard TT being used for descriptsions and content. Sans Serif is used as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font so it is both attractive and appropriate. Old Standard TT helps with styling descriptive sections of the website.
+* The montserrat is the main font used throughout the whole website for headings and navigation with Old Standard TT being used for descriptsions and content. Sans Serif is used as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font so it is both attractive and appropriate. Old Standard TT helps with styling descriptive sections of the website.
 
 ### Imagery
 
-*	Imagery is critical. A large hero image banner is designed to be eye catching whilst being consistent in all main pages on the website. The image will change on each main page, but the size and location will remain constant. These images should be striking and catch the users attention. MEB Wildlife Photography logo will appear on the Home page to ensure the user knows the purpose of the page. 
+* Imagery is critical. Consistent use of photographs throughout the website to showcase the different images I have taken. Images with have shadowing effect to look like they are lifted off the page slightly. These images should be striking and catch the users attention. Gallery pages will have clickable thumbnail images which will drop down a larger version of the image for the user to view. On drop down, the background will go dark and only the image will be viewable until and second click. This will remove any distraction on the page when viewing the larger images.
 
 
 
@@ -106,7 +106,7 @@
 *	Responsive design on all devices
 *	Interactive elements in the gallery section of the page where the user is able to click on an image thumbnail an get a larger version
 *   Interactive form to complete in the contact section
-*   hamburger menu to help navigate the site on smaller screens
+*   Hamburger menu to help navigate the site on smaller screens
 
 
 
@@ -175,7 +175,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
-# Wanted to do / improvements
+# Wanted to do / Improvements / Future Development
 
 * Incorporate parallax scrolling on mobile devices. This feature is only functioning on desktop devices on my website.
 * Structured the gallery page differently and used div elements with the images being the background rather than li elements. This would have enabled more freedom in positioning and sizing each element for each device. 
@@ -187,4 +187,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * Add a blog posting board for users to share thoughts and comments rather than directly to me using the contact form.
 * Add a calender feature to show where and when I will be taking photos.
 * Adapt the site into a hiking / photography website.
+* Add an additional page detailing all the equipment I use for taking each photograph.
+* Add intergated Youtube videos on tutorials about photography.
+* Provide useful links to support other amateur photographers.
 
